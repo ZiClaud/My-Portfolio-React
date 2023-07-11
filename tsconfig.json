@@ -27,7 +27,8 @@
       "@/*": ["./*"],
       "@atoms/*": ["./components/atoms/*"],
       "@molecules/*": ["./components/molecules/*"],
-      "@organisms/*": ["./components/organisms/*"]
+      "@organisms/*": ["./components/organisms/*"],
+      "@images/*": ["./public/images/*"],
     }
   },
   "include": [
