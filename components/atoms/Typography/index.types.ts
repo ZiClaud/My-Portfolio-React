@@ -10,6 +10,6 @@ export default interface TypographyProps {
         | "button"
         | "label"
     bold?: boolean
-    color: "neutral-1-color" | "neutral-2-color" | "primary-color"
+    color: "neutral-1" | "neutral-2" | "primary"
     className?: string
 }
