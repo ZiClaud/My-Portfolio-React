@@ -1,16 +1,18 @@
 import Typography from "@atoms/Typography";
+import Header from "@organisms/Header";
 
 export default function Home() {
     return (
-        <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-black-background">
-            <Typography variant="h1" fontWeight="light" color="primary-color">h1: Hello World</Typography>
-            <Typography variant="h2" fontWeight="light" color="neutral-1-color">h2: Hello World</Typography>
-            <Typography variant="h3" fontWeight="light" color="neutral-2-color">h3: Hello World</Typography>
-            <Typography variant="h4" fontWeight="light" color="neutral-1-color">h4: Hello World</Typography>
-            <Typography variant="h5" fontWeight="light" color="neutral-1-color">h5: Hello World</Typography>
-            <Typography variant="body1" fontWeight="light" color="primary-color">body1: Hello World</Typography>
-            <Typography variant="button" fontWeight="light" color="neutral-1-color">button: Hello World</Typography>
-            <Typography variant="label" fontWeight="light" color="neutral-1-color">label: Hello World</Typography>
+        <main className="flex flex-col bg-black-background px-28">
+            <Header />
+            <Typography variant="h1" color="primary-color" bold={false}>h1: Hello World</Typography>
+            <Typography variant="h2" color="neutral-1-color" bold={false}>h2: Hello World</Typography>
+            <Typography variant="h3" color="neutral-2-color" bold={false}>h3: Hello World</Typography>
+            <Typography variant="h4" color="neutral-1-color" bold={false}>h4: Hello World</Typography>
+            <Typography variant="h5" color="neutral-1-color" bold={false}>h5: Hello World</Typography>
+            <Typography variant="body1" color="primary-color" bold={false}>body1: Hello World</Typography>
+            <Typography variant="button" color="neutral-1-color" bold={false}>button: Hello World</Typography>
+            <Typography variant="label" color="neutral-1-color" bold={false}>label: Hello World</Typography>
         </main>
     )
 }

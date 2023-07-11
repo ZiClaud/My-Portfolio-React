@@ -9,7 +9,7 @@ export default interface TypographyProps {
         | "body1"
         | "button"
         | "label"
-    fontWeight: "light" | "bold"
+    bold?: boolean
     color: "neutral-1-color" | "neutral-2-color" | "primary-color"
     className?: string
 }

@@ -2,9 +2,9 @@ import React, {FC} from "react"
 import TypographyProps from "./index.types"
 import classNames from "classnames"
 
-// TODO: Add font weight -> It can be light or bold
+// TODO: Use "bold"
 // TODO: Figure out why the color is not working
-const Typography: FC<TypographyProps> = ({children, variant, fontWeight, color, className}) => {
+const Typography: FC<TypographyProps> = ({children, variant, color, bold, className}) => {
     switch (variant) {
         case "h1":
             return (
@@ -50,7 +50,7 @@ const Typography: FC<TypographyProps> = ({children, variant, fontWeight, color, 
             )
         case "label":
             return (
-                <p className={classNames("text-[12px] tablet:text-[14px] laptop:text-[14px]", `text-${color}`, className ?? "")}>
+                <p className={classNames("text-[12px] tablet:text-[14px] laptop:text-[14px] font-semibold", `text-${color}`, className ?? "")}>
                     {children}
                 </p>
             )
