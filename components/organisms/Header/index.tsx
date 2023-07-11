@@ -6,7 +6,7 @@ import ZC from "@images/ZC_Logo.svg";
 
 const Header: FC<HeaderProps> = ({}) => {
     return <>
-        <div className="flex flex-row justify-between pt-8">
+        <div className="flex flex-row justify-between pt-8 bg-black-background">
             <div className="flex flex-row justify-between items-center">
                 <Image src={ZC} alt="ZC" width="50" height="50"/>
                 <Typography variant="label" color="neutral-1-color">EN</Typography>

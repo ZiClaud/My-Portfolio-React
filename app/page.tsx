@@ -1,10 +1,11 @@
 import Typography from "@atoms/Typography";
 import Header from "@organisms/Header";
+import Hero from "@organisms/Hero";
 
 export default function Home() {
     return (
         <main className="flex flex-col bg-black-background px-28">
-            <Header />
+            <Hero />
             <Typography variant="h1" color="primary-color" bold={false}>h1: Hello World</Typography>
             <Typography variant="h2" color="neutral-1-color" bold={false}>h2: Hello World</Typography>
             <Typography variant="h3" color="neutral-2-color" bold={false}>h3: Hello World</Typography>
