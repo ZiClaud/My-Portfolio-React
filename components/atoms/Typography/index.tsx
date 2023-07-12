@@ -4,6 +4,7 @@ import classNames from "classnames"
 
 // TODO: Use "bold"
 const Typography: FC<TypographyProps> = ({children, variant, color, bold, className}) => {
+
     switch (variant) {
         case "h1":
             return (
@@ -13,6 +14,10 @@ const Typography: FC<TypographyProps> = ({children, variant, color, bold, classN
                         "text-neutral-1-color": color === "neutral-1",
                         "text-neutral-2-color": color === "neutral-2",
                         "text-primary-color": color === "primary",
+                    },
+                    {
+                        "font-light": !bold,
+                        "font-semibold": bold,
                     },
                     className ?? ""
                 )}>
@@ -28,6 +33,10 @@ const Typography: FC<TypographyProps> = ({children, variant, color, bold, classN
                         "text-neutral-2-color": color === "neutral-2",
                         "text-primary-color": color === "primary",
                     },
+                    {
+                        "font-light": !bold,
+                        "font-semibold": bold,
+                    },
                     className ?? ""
                 )}>
                     {children}
@@ -41,6 +50,10 @@ const Typography: FC<TypographyProps> = ({children, variant, color, bold, classN
                         "text-neutral-1-color": color === "neutral-1",
                         "text-neutral-2-color": color === "neutral-2",
                         "text-primary-color": color === "primary",
+                    },
+                    {
+                        "font-light": !bold,
+                        "font-semibold": bold,
                     },
                     className ?? ""
                 )}>
@@ -56,6 +69,10 @@ const Typography: FC<TypographyProps> = ({children, variant, color, bold, classN
                         "text-neutral-2-color": color === "neutral-2",
                         "text-primary-color": color === "primary",
                     },
+                    {
+                        "font-light": !bold,
+                        "font-semibold": bold,
+                    },
                     className ?? ""
                 )}>
                     {children}
@@ -69,6 +86,10 @@ const Typography: FC<TypographyProps> = ({children, variant, color, bold, classN
                         "text-neutral-1-color": color === "neutral-1",
                         "text-neutral-2-color": color === "neutral-2",
                         "text-primary-color": color === "primary",
+                    },
+                    {
+                        "font-light": !bold,
+                        "font-semibold": bold,
                     },
                     className ?? ""
                 )}>
@@ -84,6 +105,10 @@ const Typography: FC<TypographyProps> = ({children, variant, color, bold, classN
                         "text-neutral-2-color": color === "neutral-2",
                         "text-primary-color": color === "primary",
                     },
+                    {
+                        "font-light": !bold,
+                        "font-semibold": bold,
+                    },
                     className ?? ""
                 )}>
                     {children}
@@ -97,6 +122,10 @@ const Typography: FC<TypographyProps> = ({children, variant, color, bold, classN
                         "text-neutral-1-color": color === "neutral-1",
                         "text-neutral-2-color": color === "neutral-2",
                         "text-primary-color": color === "primary",
+                    },
+                    {
+                        "font-normal": !bold,
+                        "font-semibold": bold,
                     },
                     className ?? ""
                 )}>
