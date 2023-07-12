@@ -5,7 +5,7 @@ import ContactSocials from "@molecules/ContactSocials";
 
 const Contact: FC<ContactProps> = ({}) => {
     return <>
-        <div className="flex flex-col laptop:flex-row justify-around">
+        <div className="flex flex-col-reverse laptop:flex-row justify-around">
             <ContactSocials/>
             <ContactText/>
         </div>
