@@ -8,14 +8,14 @@ import IconButton from "@atoms/IconButton";
 // TODO: Improve the spacing between the icons
 const ContactSocials: FC<ContactSocialsProps> = ({}) => {
     return <>
-        <div>
-            <div className="pl-[51px] pt-[0px]">
+        <div className="flex flex-col justify-center items-center h-[300px]">
+            <div className="absolute pr-[75px] pb-[125px]">
                 <IconButton src={GitHubLogo} alt="Github" href="#"/>
             </div>
-            <div className="pl-[199px] pt-[0px]">
+            <div className="absolute pl-[175px] pt-[0px]">
                 <IconButton src={LinkedInLogo} alt="LinkedIn" href="#"/>
             </div>
-            <div className="pl-[85px] pt-[0px]">
+            <div className="absolute pl-[0px] pt-[200px]">
                 <IconButton src={MailLogo} alt="Mail" href="#"/>
             </div>
         </div>
