@@ -11,7 +11,7 @@ const Hero: FC<HeroProps> = ({}) => {
             <Header/>
             <div className="flex flex-col justify-between items-center">
                 <Typography variant="h1" color="neutral-1">Claudio Di Maio</Typography>
-                <Typography variant="h2" color="neutral-2">Software Developer</Typography>
+                <Typography variant="h1" color="neutral-2">Software Developer</Typography>
             </div>
             <div className="flex flex-col justify-between items-center">
                 <Image src={ArrowDown} alt="v" width="50" height="50"/>
