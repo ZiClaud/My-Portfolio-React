@@ -5,7 +5,7 @@ import LinkedInLogo from "@images/linkedin_img.svg";
 import MailLogo from "@images/mail_img.svg";
 import IconButton from "@atoms/IconButton";
 
-// TODO: Improve the spacing between the icons
+// TODO: Fix the absolute positioning of the icons -> Can't click because of div
 const ContactSocials: FC<ContactSocialsProps> = ({}) => {
     return <>
         <div className="flex flex-col justify-center items-center h-[300px]">
