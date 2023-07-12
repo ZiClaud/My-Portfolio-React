@@ -8,7 +8,7 @@ import Padding from "@atoms/Padding";
 
 export default function Home() {
     return (
-        <main className="flex flex-col bg-black-background px-28">
+        <main className="flex flex-col bg-black-background px-5 tablet:px-14 laptop:px-28">
             <Hero />
             <Padding />
             <Skills />

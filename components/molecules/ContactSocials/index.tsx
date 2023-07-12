@@ -10,13 +10,13 @@ const ContactSocials: FC<ContactSocialsProps> = ({}) => {
     return <>
         <div className="flex flex-col justify-center items-center h-[300px]">
             <div className="absolute pr-[75px] pb-[125px]">
-                <IconButton src={GitHubLogo} alt="Github" href="#"/>
+                <IconButton src={GitHubLogo} alt="Github" href="https://github.com/ZiClaud"/>
             </div>
             <div className="absolute pl-[175px] pt-[0px]">
-                <IconButton src={LinkedInLogo} alt="LinkedIn" href="#"/>
+                <IconButton src={LinkedInLogo} alt="LinkedIn" href="https://www.linkedin.com/in/claudio-di-maio"/>
             </div>
             <div className="absolute pl-[0px] pt-[200px]">
-                <IconButton src={MailLogo} alt="Mail" href="#"/>
+                <IconButton src={MailLogo} alt="Mail" href="mailto:claudiodimaiozc@gmail.com"/>
             </div>
         </div>
     </>
