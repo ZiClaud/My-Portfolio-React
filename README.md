@@ -1,16 +1,9 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped
-with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
+To run on localhost:
 ```bash
 npm run dev
 ```
 
 To create a component (Atom, Molecule, Organism):
-
 ```bash
 npm run plop
 ```
