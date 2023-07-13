@@ -3,6 +3,7 @@ import WorksListProps from "./index.types"
 import WorksListText from "@atoms/WorksListText";
 import WorksListImage from "@atoms/WorksListImage";
 import classNames from "classnames";
+import Padding from "@atoms/Padding";
 
 const WorksList: FC<WorksListProps> = ({
                                            imageFirst,
@@ -23,6 +24,7 @@ const WorksList: FC<WorksListProps> = ({
             <WorksListText title={title} description={description} descriptionBold={descriptionBold} category={category}/>
             <WorksListImage urlImage={urlImage}/>
         </div>
+        <Padding />
     </>
 }
 
