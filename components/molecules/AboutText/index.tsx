@@ -4,7 +4,7 @@ import Typography from "@atoms/Typography";
 
 const AboutText: FC<AboutTextProps> = ({}) => {
     return <>
-        <div>
+        <div className="w-[40vw]">
             <Typography variant="h4" color="neutral-1" bold={true}>A BIT ABOUT ME</Typography>
 
             <div>

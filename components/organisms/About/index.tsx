@@ -5,7 +5,7 @@ import AboutImages from "@molecules/AboutImages";
 
 const About: FC<AboutProps> = ({}) => {
     return <>
-        <div className="flex flex-row items-center">
+        <div className="flex flex-row justify-around items-center">
             <AboutText />
             <AboutImages />
         </div>
