@@ -10,8 +10,12 @@ const Hero: FC<HeroProps> = ({}) => {
         <div className="flex flex-col min-h-screen justify-between">
             <Header/>
             <div className="flex flex-col justify-between items-center">
-                <Typography variant="h1" color="neutral-1" bold={true}>Claudio Di Maio</Typography>
-                <Typography variant="h1" color="neutral-2" bold={false}>Software Developer</Typography>
+                <Typography variant="h1" color="neutral-1" bold={true} className="text-center">
+                    Claudio Di Maio
+                </Typography>
+                <Typography variant="h1" color="neutral-2" bold={false} className="text-center">
+                    Software Developer
+                </Typography>
             </div>
             <div className="flex flex-col justify-between items-center">
                 <Image src={ArrowDown} alt="v" width="50" height="50"/>
