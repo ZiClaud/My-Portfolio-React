@@ -4,13 +4,14 @@ import Typography from "@atoms/Typography";
 
 const WorksListText: FC<WorksListTextProps> = ({title, description, descriptionBold, category}) => {
     return <>
-        <div className="hidden tablet:flex flex-col justify-center tablet:w-[40vw]">
+        <div className="hidden tablet:flex flex-col justify-center w-[40vw]" id="Tablet-Laptop-View">
             <Typography variant="h5" color="neutral-1" bold={true}>{title}</Typography>
             <Typography variant="h3" color="neutral-2" bold={true}>{description}</Typography>
             <Typography variant="h3" color="neutral-1" bold={true}>{descriptionBold}</Typography>
             <Typography variant="body1" color="neutral-1" bold={false}>{category}</Typography>
         </div>
-        <div className="flex tablet:hidden flex-col justify-center tablet:w-[40vw]">
+
+        <div className="flex tablet:hidden flex-col justify-center" id="Mobile-View">
             <div className="flex justify-between">
                 <div className="w-[25vw]">
                     <Typography variant="h5" color="neutral-1" bold={true} className="text-end">
