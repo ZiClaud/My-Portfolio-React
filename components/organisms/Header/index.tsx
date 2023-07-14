@@ -3,10 +3,8 @@ import HeaderProps from "./index.types"
 import Image from "next/image";
 import ZC from "@images/ZC_Logo.svg";
 import HeaderButton from "@molecules/HeaderButton";
-import HambugerMenu from "@images/burger-menu.svg";
+import HamburgerMenu from "@images/burger-menu.svg";
 
-// TODO: Make hamburger menu work
-//TODO: Add <Typography variant="h5" color="neutral-1" bold={true}>EN</Typography>
 const Header: FC<HeaderProps> = ({}) => {
     return <>
         <div className="flex flex-row justify-between pt-8 bg-black-background">
@@ -20,7 +18,7 @@ const Header: FC<HeaderProps> = ({}) => {
                 <HeaderButton link="#">CONTACT</HeaderButton>
             </div>
             <div className="flex tablet:hidden">
-                <Image src={HambugerMenu} alt={"-"} width={35} height={35}/>
+                <Image src={HamburgerMenu} alt={"-"} width={35} height={35}/>
             </div>
         </div>
     </>

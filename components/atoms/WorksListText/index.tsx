@@ -1,6 +1,7 @@
 import React, {FC} from "react";
 import WorksListTextProps from "./index.types"
 import Typography from "@atoms/Typography";
+import ViewWorkButton from "@atoms/ViewWorkButton";
 
 const WorksListText: FC<WorksListTextProps> = ({title, description, descriptionBold, category}) => {
     return <>
@@ -9,6 +10,8 @@ const WorksListText: FC<WorksListTextProps> = ({title, description, descriptionB
             <Typography variant="h3" color="neutral-2" bold={true}>{description}</Typography>
             <Typography variant="h3" color="neutral-1" bold={true}>{descriptionBold}</Typography>
             <Typography variant="body1" color="neutral-1" bold={false}>{category}</Typography>
+            <ViewWorkButton title={title} skills={["1", "2"]} descriptionLong1={"desc1"}
+                            descriptionLongBold1={"desc2"} urlAllImages={["#"]}/>
         </div>
 
         <div className="flex tablet:hidden flex-col justify-center" id="Mobile-View">
@@ -29,6 +32,8 @@ const WorksListText: FC<WorksListTextProps> = ({title, description, descriptionB
             </div>
             <Typography variant="h3" color="neutral-2" bold={true}>{description}</Typography>
             <Typography variant="h3" color="neutral-1" bold={true}>{descriptionBold}</Typography>
+            <ViewWorkButton title={title} skills={["1", "2"]} descriptionLong1={"desc1"}
+                            descriptionLongBold1={"desc2"} urlAllImages={["#"]}/>
         </div>
     </>
 }

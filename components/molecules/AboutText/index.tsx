@@ -5,7 +5,9 @@ import Typography from "@atoms/Typography";
 const AboutText: FC<AboutTextProps> = ({}) => {
     return <>
         <div className="laptop:w-[40vw]">
-            <Typography variant="h4" color="neutral-1" bold={true}>A BIT ABOUT ME</Typography>
+            <Typography variant="h4" color="neutral-1" bold={true} className="flex justify-center tablet:justify-start">
+                A BIT ABOUT ME
+            </Typography>
 
             <div>
                 <Typography variant="h3" color="neutral-2" bold={false}>

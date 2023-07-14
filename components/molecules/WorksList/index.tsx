@@ -20,11 +20,12 @@ const WorksList: FC<WorksListProps> = ({
                                            urlAllImages
                                        }) => {
     return <>
-        <div className={classNames("flex flex-col tablet:flex-row justify-between", {'tablet:flex-row-reverse': imageFirst})}>
-            <WorksListText title={title} description={description} descriptionBold={descriptionBold} category={category}/>
+        <div
+            className={classNames("flex flex-col tablet:flex-row justify-between", {'tablet:flex-row-reverse': !imageFirst})}>
             <WorksListImage urlImage={urlImage}/>
+            <WorksListText title={title} description={description} descriptionBold={descriptionBold} category={category}/>
         </div>
-        <Padding />
+        <Padding/>
     </>
 }
 
