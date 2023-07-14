@@ -15,7 +15,7 @@ const ViewWorkButton: FC<ViewWorkButtonProps> = ({
                                                  }) => {
     return <>
         <div className="flex flex-row justify-center items-center py-4">
-            <button className="flex flex-row justify-center items-center bg-transparent hover:bg-primary-color py-2 px-4 border border-neutral-1 rounded-3xl">
+            <button className="flex flex-row justify-center items-center bg-transparent hover:bg-primary-color py-2 px-4 border border-neutral-1 rounded-3xl transition">
                 <Typography variant={"button"} color="neutral-1" bold={true}>VIEW WORK</Typography>
                 <Image src={RightArrow} alt={">"} width={25} height={25}/>
             </button>
