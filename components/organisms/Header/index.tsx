@@ -23,13 +23,11 @@ const Header: FC<HeaderProps> = ({}) => {
                 <HeaderButton link="#">ABOUT</HeaderButton>
                 <HeaderButton link="#">CONTACT</HeaderButton>
             </div>
-            <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
-                <div className="flex tablet:hidden">
+            <div className="flex tablet:hidden">
+                <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
                     <Image src={HamburgerMenu} alt={"-"} width={35} height={35}/>
-                </div>
-            </button>
-            {isMenuOpen && (
-                <div className="tablet:hidden">
+                </button>
+                {isMenuOpen && (
                     <div className="bg-black-background fixed inset-0 flex items-center justify-center z-50">
                         <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
                             <div className="flex flex-col gap-4 text-white">
@@ -40,8 +38,8 @@ const Header: FC<HeaderProps> = ({}) => {
                             </div>
                         </button>
                     </div>
-                </div>
-            )}
+                )}
+            </div>
         </div>
     </>
 }
