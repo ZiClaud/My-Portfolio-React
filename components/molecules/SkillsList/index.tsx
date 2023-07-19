@@ -4,7 +4,7 @@ import Image from "next/image";
 import FlutterLogo from "@images/flutter.svg";
 import DartLogo from "@images/dart.svg";
 import ReactLogo from "@images/react.svg";
-import JavaLogo from "@images/java.svg";
+import TailwindLogo from "@images/tailwind.svg";
 
 // TODO: Maybe change brightness, or find a good hover effect
 const SkillsList: FC<SkillsListProps> = ({}) => {
@@ -23,7 +23,7 @@ const SkillsList: FC<SkillsListProps> = ({}) => {
                        className="hover:scale-110 transition"/>
             </div>
             <div className="w-[200px h-[200px] flex juisfty-center items-center px-1">
-                <Image src={JavaLogo} alt={"Java"} width={200} height={200}
+                <Image src={TailwindLogo} alt={"Java"} width={200} height={200}
                        className="hover:scale-110 transition"/>
             </div>
         </div>
