@@ -1,7 +1,7 @@
 import React, {FC} from "react";
 import WorksListTextProps from "./index.types"
 import Typography from "@atoms/Typography";
-import ViewWorkButton from "@atoms/ViewWorkButton";
+import ViewWorkButton from "../../molecules/ViewWorkButton";
 
 const WorksListText: FC<WorksListTextProps> = ({title, description, descriptionBold, category}) => {
     return <>

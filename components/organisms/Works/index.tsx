@@ -18,6 +18,7 @@ const Works: FC<WorksProps> = ({}) => {
                        descriptionBold="organize their schedule for the event in a single, user-friendly interface"
                        category="Website" urlImage="https://i.imgur.com/nu9WG4d.png"
                        descriptionLong1={""} descriptionLongBold1={""} urlAllImages={[""]} skills={[""]}/>
+
         </div>
     </>
 }
