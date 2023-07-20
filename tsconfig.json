@@ -24,11 +24,21 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"],
-      "@atoms/*": ["./components/atoms/*"],
-      "@molecules/*": ["./components/molecules/*"],
-      "@organisms/*": ["./components/organisms/*"],
-      "@images/*": ["./public/images/*"],
+      "@/*": [
+        "./*"
+      ],
+      "@atoms/*": [
+        "./components/atoms/*"
+      ],
+      "@molecules/*": [
+        "./components/molecules/*"
+      ],
+      "@organisms/*": [
+        "./components/organisms/*"
+      ],
+      "@images/*": [
+        "./public/images/*"
+      ]
     }
   },
   "include": [

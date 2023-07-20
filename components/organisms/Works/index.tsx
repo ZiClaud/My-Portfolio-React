@@ -5,7 +5,7 @@ import WorksList from "@molecules/WorksList";
 
 const Works: FC<WorksProps> = ({}) => {
     return <>
-        <div>
+        <div id="works-section">
             <SectionTitle text1="My best" text2="Works"/>
             <WorksList imageFirst={false} title="Iremi App"
                        description="I developed this app entirely on my own, and it offers users a range of breathing exercises that are specifically designed to "

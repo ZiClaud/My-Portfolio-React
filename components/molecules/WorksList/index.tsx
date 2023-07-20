@@ -23,7 +23,8 @@ const WorksList: FC<WorksListProps> = ({
         <div
             className={classNames("flex flex-col tablet:flex-row justify-between", {'tablet:flex-row-reverse': !imageFirst})}>
             <WorksListImage urlImage={urlImage}/>
-            <WorksListText title={title} description={description} descriptionBold={descriptionBold} category={category}/>
+            <WorksListText title={title} description={description} descriptionBold={descriptionBold}
+                           category={category}/>
         </div>
         <Padding/>
     </>

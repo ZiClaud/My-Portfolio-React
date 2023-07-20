@@ -15,7 +15,8 @@ const ViewWorkButton: FC<ViewWorkButtonProps> = ({
                                                  }) => {
     return <>
         <div className="flex flex-row justify-center items-center py-4">
-            <Button text="VIEW WORK" onClick={() => {}}/>
+            <Button text="VIEW WORK" onClick={() => {
+            }}/>
         </div>
     </>
 }
