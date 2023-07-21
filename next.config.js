@@ -4,7 +4,7 @@ const nextConfig = {
         domains: [
             'assets.telegraphindia.com',
             'media.cnn.com',
-            'cdn.fuelrocks.com',
+            'cdn.fuelrocks.com'
         ],
     },
 }

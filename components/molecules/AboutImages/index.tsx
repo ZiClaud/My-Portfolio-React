@@ -9,21 +9,21 @@ const AboutImages: FC<AboutImagesProps> = ({}) => {
             <div className="absolute pt-[0]">
                 <Image
                     src="https://assets.telegraphindia.com/telegraph/2022/Feb/1644870612_design.jpg"
-                    alt="" width={282} height={374} className="rounded-3xl" object-fit="cover"
+                    alt="404" width={282} height={374} className="rounded-3xl" object-fit="cover"
                 />
             </div>
 
             <div className="absolute pt-[300px] pl-[300px]">
                 <Image
                     src="https://media.cnn.com/api/v1/images/stellar/prod/230104173032-02-chess-stock.jpg?c=original"
-                    alt="" width={282} height={374} className="rounded-3xl" object-fit="cover"
+                    alt="404" width={282} height={374} className="rounded-3xl" object-fit="cover"
                 />
             </div>
 
             <div className="absolute pt-[600px]">
                 <Image
                     src="https://cdn.fuelrocks.com/1665122987550.jpg"
-                    alt="" width={282} height={374} className="rounded-3xl" object-fit="cover"
+                    alt="404" width={282} height={374} className="rounded-3xl" object-fit="cover"
                 />
             </div>
         </div>
