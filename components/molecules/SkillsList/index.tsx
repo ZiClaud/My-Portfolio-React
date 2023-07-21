@@ -23,7 +23,7 @@ const SkillsList: FC<SkillsListProps> = ({}) => {
                        className="hover:scale-110 transition"/>
             </div>
             <div className="w-[200px h-[200px] flex juisfty-center items-center px-1">
-                <Image src={TailwindLogo} alt={"Java"} width={200} height={200}
+                <Image src={TailwindLogo} alt={"Tailwind"} width={200} height={200}
                        className="hover:scale-110 transition"/>
             </div>
         </div>
