@@ -4,7 +4,7 @@ import Typography from "@atoms/Typography";
 
 const ContactText: FC<ContactTextProps> = ({}) => {
     return <>
-        <div className="flex flex-col justify-center items-center py-20">
+        <div className="flex flex-col justify-center items-center py-20 w-[350px]">
             <div className="flex flex-row">
                 <Typography variant="h1" color="neutral-2">
                     Get&nbsp;

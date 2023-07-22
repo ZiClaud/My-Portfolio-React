@@ -8,7 +8,7 @@ import IconButton from "@atoms/IconButton";
 // TODO: Fix the absolute positioning of the icons -> Can't click because of div
 const ContactSocials: FC<ContactSocialsProps> = ({}) => {
     return <>
-        <div className="flex flex-col justify-center items-center h-[300px]">
+        <div className="flex flex-col justify-center items-center h-[300px] w-[350px]">
             <div className="absolute pr-[75px] pb-[125px]">
                 <IconButton src={GitHubLogo} alt="Github" href="https://github.com/ZiClaud"/>
             </div>
