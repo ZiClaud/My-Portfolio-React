@@ -38,10 +38,14 @@ const Header: FC<HeaderProps> = ({}) => {
                 {isMenuOpen && (
                     <div className="bg-black-background fixed inset-0 flex items-center justify-center z-50">
                         <div className="flex flex-col gap-4 text-white">
-                            <HeaderButton variant="mobile" onClick={() => scrollToSection("skills-section")}>SKILLS</HeaderButton>
-                            <HeaderButton variant="mobile" onClick={() => scrollToSection("works-section")}>WORKS</HeaderButton>
-                            <HeaderButton variant="mobile" onClick={() => scrollToSection("about-section")}>ABOUT</HeaderButton>
-                            <HeaderButton variant="mobile" onClick={() => scrollToSection("contact-section")}>CONTACT</HeaderButton>
+                            <HeaderButton variant="mobile"
+                                          onClick={() => scrollToSection("skills-section")}>SKILLS</HeaderButton>
+                            <HeaderButton variant="mobile"
+                                          onClick={() => scrollToSection("works-section")}>WORKS</HeaderButton>
+                            <HeaderButton variant="mobile"
+                                          onClick={() => scrollToSection("about-section")}>ABOUT</HeaderButton>
+                            <HeaderButton variant="mobile"
+                                          onClick={() => scrollToSection("contact-section")}>CONTACT</HeaderButton>
                         </div>
                     </div>
                 )}

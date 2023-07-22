@@ -1,1 +1,2 @@
-export default interface HeroProps { }
+export default interface HeroProps {
+}

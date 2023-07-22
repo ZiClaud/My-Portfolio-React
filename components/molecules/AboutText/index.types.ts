@@ -1,1 +1,2 @@
-export default interface AboutTextProps { }
+export default interface AboutTextProps {
+}

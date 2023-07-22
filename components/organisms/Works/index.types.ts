@@ -1,1 +1,2 @@
-export default interface WorksProps { }
+export default interface WorksProps {
+}

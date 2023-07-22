@@ -1,1 +1,2 @@
-export default interface ContactProps { }
+export default interface ContactProps {
+}

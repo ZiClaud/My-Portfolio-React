@@ -1,1 +1,2 @@
-export default interface SkillProps { }
+export default interface SkillProps {
+}
