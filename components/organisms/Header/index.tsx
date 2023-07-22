@@ -26,10 +26,10 @@ const Header: FC<HeaderProps> = ({}) => {
                 <Image src={ZC} alt="ZC" width="48" height="48"/>
             </div>
             <div className="hidden tablet:flex flex-row justify-between items-center">
-                <HeaderButton onClick={() => scrollToSection("skills-section")}>SKILLS</HeaderButton>
-                <HeaderButton onClick={() => scrollToSection("works-section")}>WORKS</HeaderButton>
-                <HeaderButton onClick={() => scrollToSection("about-section")}>ABOUT</HeaderButton>
-                <HeaderButton onClick={() => scrollToSection("contact-section")}>CONTACT</HeaderButton>
+                <HeaderButton variant="laptop" onClick={() => scrollToSection("skills-section")}>SKILLS</HeaderButton>
+                <HeaderButton variant="laptop" onClick={() => scrollToSection("works-section")}>WORKS</HeaderButton>
+                <HeaderButton variant="laptop" onClick={() => scrollToSection("about-section")}>ABOUT</HeaderButton>
+                <HeaderButton variant="laptop" onClick={() => scrollToSection("contact-section")}>CONTACT</HeaderButton>
             </div>
             <div className="flex tablet:hidden">
                 <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
@@ -38,10 +38,10 @@ const Header: FC<HeaderProps> = ({}) => {
                 {isMenuOpen && (
                     <div className="bg-black-background fixed inset-0 flex items-center justify-center z-50">
                         <div className="flex flex-col gap-4 text-white">
-                            <HeaderButton onClick={() => scrollToSection("skills-section")}>SKILLS</HeaderButton>
-                            <HeaderButton onClick={() => scrollToSection("works-section")}>WORKS</HeaderButton>
-                            <HeaderButton onClick={() => scrollToSection("about-section")}>ABOUT</HeaderButton>
-                            <HeaderButton onClick={() => scrollToSection("contact-section")}>CONTACT</HeaderButton>
+                            <HeaderButton variant="mobile" onClick={() => scrollToSection("skills-section")}>SKILLS</HeaderButton>
+                            <HeaderButton variant="mobile" onClick={() => scrollToSection("works-section")}>WORKS</HeaderButton>
+                            <HeaderButton variant="mobile" onClick={() => scrollToSection("about-section")}>ABOUT</HeaderButton>
+                            <HeaderButton variant="mobile" onClick={() => scrollToSection("contact-section")}>CONTACT</HeaderButton>
                         </div>
                     </div>
                 )}
