@@ -2,6 +2,7 @@ import React, {FC} from "react";
 import WorksProps from "./index.types"
 import SectionTitle from "@molecules/SectionTitle";
 import WorksList from "@molecules/WorksList";
+import Button from "@atoms/Button";
 
 const Works: FC<WorksProps> = ({}) => {
     return <>
@@ -31,6 +32,9 @@ const Works: FC<WorksProps> = ({}) => {
                        descriptionLongBold1={""}
                        urlAllImages={[""]}
                        skills={[""]}/>
+            <div className="flex flex-row justify-center items-center py-4">
+                <Button text="VIEW ALL WORKS" link="/works"/>
+            </div>
         </div>
     </>
 }
