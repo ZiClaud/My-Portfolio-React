@@ -1,1 +1,2 @@
-export default interface HomePageProps { }
+export default interface HomePageProps {
+}

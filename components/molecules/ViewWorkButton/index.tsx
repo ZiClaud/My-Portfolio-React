@@ -16,7 +16,7 @@ const ViewWorkButton: FC<ViewWorkButtonProps> = ({
                                                  }) => {
     return <>
         <div className="flex flex-row justify-center items-center py-4">
-            <Button text="VIEW WORK" link={`/works/${title}`} />
+            <Button text="VIEW WORK" link={`/works/${title}`}/>
         </div>
     </>
 }

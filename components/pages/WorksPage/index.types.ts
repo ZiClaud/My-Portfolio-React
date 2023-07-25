@@ -1,1 +1,2 @@
-export default interface WorksPageProps { }
+export default interface WorksPageProps {
+}
