@@ -13,10 +13,12 @@ const Header: FC<HeaderProps> = ({}) => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const scrollToSection = (ref: string) => {
-        window.scrollTo({
-            behavior: "smooth",
-            top: document.getElementById(ref)?.offsetTop || 0,
-        });
+        if (typeof window !== 'undefined') {
+            window.scrollTo({
+                behavior: "smooth",
+                top: document.getElementById(ref)?.offsetTop || 0,
+            });
+        }
         setIsMenuOpen(false);
     };
 
