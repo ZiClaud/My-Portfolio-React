@@ -4,6 +4,12 @@ To run on localhost:
 npm run dev
 ```
 
+To build:
+
+```bash
+npm run build
+```
+
 To create a component (Atom, Molecule, Organism):
 
 ```bash
