@@ -1,9 +1,9 @@
 import React, {FC} from "react";
 import ContactSocialsProps from "./index.types"
+import IconButton from "@atoms/IconButton";
 import GitHubLogo from "@images/github_img.svg";
 import LinkedInLogo from "@images/linkedin_img.svg";
 import MailLogo from "@images/mail_img.svg";
-import IconButton from "@atoms/IconButton";
 
 // TODO: Fix the absolute positioning of the icons -> Can't click because of div
 const ContactSocials: FC<ContactSocialsProps> = ({}) => {
