@@ -15,8 +15,8 @@ const AllWorksPage: FC<AllWorksPageProps> = ({}) => {
                 {AllWorks.map((work) => {
                     return <>
                         <Typography variant="h3" color="neutral-1" bold={true}>{work.title}</Typography>
-                        <Image src={work.urlImage} alt={work.category} width={300} height={200} />
-                        <Padding />
+                        <Image src={work.urlImage} alt={work.category} width={300} height={200}/>
+                        <Padding/>
                     </>;
                 })}
             </div>
