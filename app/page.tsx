@@ -1,12 +1,25 @@
 'use client'
 
+import React, {useEffect, useState} from 'react';
 import HomePage from "@/components/pages/HomePage";
-import {Route, Routes} from "react-router";
 import WorksPage from "@/components/pages/WorksPage";
-import {BrowserRouter} from "react-router-dom";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
 
 export default function Home() {
-    // @ts-ignore
+    const [isLoading, setIsLoading] = useState(true);
+
+    useEffect(() => {
+        // Simulate loading time (you can replace this with your actual loading logic)
+        setTimeout(() => {
+            setIsLoading(false);
+        }, 0);
+    }, []);
+
+    if (isLoading) {
+        return <div className="flex justify-center items-center">Loading...</div>;
+    }
+
+    // When the document is loaded, render the routes
     return (
         <BrowserRouter>
             <Routes>
@@ -14,5 +27,5 @@ export default function Home() {
                 <Route path="/works" element={<WorksPage/>}/>
             </Routes>
         </BrowserRouter>
-    )
+    );
 }
