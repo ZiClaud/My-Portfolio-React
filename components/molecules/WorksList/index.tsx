@@ -5,26 +5,15 @@ import WorksListImage from "@atoms/WorksListImage";
 import classNames from "classnames";
 import Padding from "@atoms/Padding";
 
-const WorksList: FC<WorksListProps> = ({
-                                           imageFirst,
-                                           title,
-                                           description,
-                                           descriptionBold,
-                                           category,
-                                           urlImage,
-                                           skills,
-                                           descriptionLong1,
-                                           descriptionLongBold1,
-                                           descriptionLong2,
-                                           descriptionLongBold2,
-                                           urlAllImages
-                                       }) => {
+const WorksList: FC<WorksListProps> = ({workData}) => {
     return <>
         <div
-            className={classNames("flex flex-col tablet:flex-row justify-between", {'tablet:flex-row-reverse': !imageFirst})}>
-            <WorksListImage urlImage={urlImage}/>
-            <WorksListText title={title} description={description} descriptionBold={descriptionBold}
-                           category={category}/>
+            className={classNames("flex flex-col tablet:flex-row justify-between", {'tablet:flex-row-reverse': !workData.imageFirst})}>
+            <WorksListImage urlImage={workData.urlImage}/>
+            <WorksListText title={workData.title}
+                           description={workData.description}
+                           descriptionBold={workData.descriptionBold}
+                           category={workData.category}/>
         </div>
         <Padding/>
     </>
