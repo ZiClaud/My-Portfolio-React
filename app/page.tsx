@@ -4,6 +4,7 @@ import React, {useEffect, useState} from 'react';
 import HomePage from "@/components/pages/HomePage";
 import WorksPage from "@/components/pages/WorksPage";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
+import LoadingPage from "@/components/pages/LoadingPage";
 
 export default function Home() {
     const [isLoading, setIsLoading] = useState(true);
@@ -16,7 +17,7 @@ export default function Home() {
     }, []);
 
     if (isLoading) {
-        return <div className="flex justify-center items-center">Loading...</div>;
+        return <LoadingPage/>;
     }
 
     // When the document is loaded, render the routes

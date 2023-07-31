@@ -1,3 +1,5 @@
+'use client'
+
 import React, {FC} from "react";
 import HomePageProps from "./index.types"
 import Hero from "@organisms/Hero";
