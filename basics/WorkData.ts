@@ -3,6 +3,7 @@ export default class WorkData {
     visible: boolean;
     imageFirst: boolean;
     title: string;
+    linkName: string;
     description: string;
     descriptionBold: string;
     category: string;
@@ -20,6 +21,7 @@ export default class WorkData {
         visible: boolean,
         imageFirst: boolean,
         title: string,
+        linkName: string,
         description: string,
         descriptionBold: string,
         category: string,
@@ -36,6 +38,7 @@ export default class WorkData {
         this.visible = visible;
         this.imageFirst = imageFirst;
         this.title = title;
+        this.linkName = linkName;
         this.description = description;
         this.descriptionBold = descriptionBold;
         this.category = category;

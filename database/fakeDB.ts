@@ -5,7 +5,7 @@ import WorkData from "@/basics/WorkData";
 export const IremiApp = new WorkData(
     20230318,
     true,
-    true, "Iremi App", "I developed this app entirely on my own, and it offers users a range of breathing exercises that are specifically designed to ", "promote relaxation and mindfulness.", "Mobile App", "https://i.imgur.com/eoEx6Tt.png?1",
+    true, "Iremi App", "iremi", "I developed this app entirely on my own, and it offers users a range of breathing exercises that are specifically designed to ", "promote relaxation and mindfulness.", "Mobile App", "https://i.imgur.com/eoEx6Tt.png?1",
     ["Flutter", "Dart", "Firebase"], "", "", "", "",
     ["", "",
     ], "link",
@@ -14,7 +14,7 @@ export const IremiApp = new WorkData(
 export const JEIOM = new WorkData(
     20220614,
     true,
-    false, "JEIOM23", "I was part of a team that developed this website for the JEIOM 2023 event. Our goal was to create a platform that would enable users to ", "organize their schedule for the event in a single, user-friendly interface", "Website", "https://i.imgur.com/nu9WG4d.png",
+    false, "JEIOM23", "jeiom", "I was part of a team that developed this website for the JEIOM 2023 event. Our goal was to create a platform that would enable users to ", "organize their schedule for the event in a single, user-friendly interface", "Website", "https://i.imgur.com/nu9WG4d.png",
     ["React", "Node", "TailwindCSS"], "", "", "", "",
     ["", "",
     ], "www.jeiom23.com",
@@ -23,7 +23,7 @@ export const JEIOM = new WorkData(
 export const Portfolio = new WorkData(
     20230426,
     true,
-    true, "This Portfolio", "I developed this portfolio, taking inspiration from a design found online, created first in ", "Flutter, then recreated in React.", "Website", "https://i.imgur.com/5yosKhp.png",
+    true, "This Portfolio", "portfolio", "I developed this portfolio, taking inspiration from a design found online, created first in ", "Flutter, then recreated in React.", "Website", "https://i.imgur.com/5yosKhp.png",
     ["React", "TailwindCSS"], "", "", "", "",
     ["", "",
     ], "https://claudiodimaioflutter.netlify.app/",
@@ -32,7 +32,7 @@ export const Portfolio = new WorkData(
 export const JEMOREApp = new WorkData(
     20220727,
     false,
-    false, "JEMORE App", "Application ...", "", "Mobile App", "https://i.imgur.com/TODO.png",
+    false, "JEMORE App", "jemore_app", "Application ...", "", "Mobile App", "https://i.imgur.com/TODO.png",
     ["Flutter", "Dart", "Parse"], "", "", "", "",
     ["", "",
     ], "link",
@@ -41,7 +41,7 @@ export const JEMOREApp = new WorkData(
 export const JEMORETreasury = new WorkData(
     20220803,
     false,
-    false, "JEMORE Treasury", "Website ...", "", "Website", "https://i.imgur.com/TODO.png",
+    false, "JEMORE Treasury", "jemore_treasury", "Website ...", "", "Website", "https://i.imgur.com/TODO.png",
     ["Flutter", "Dart"], "", "", "", "",
     ["", "",
     ], "link",
@@ -50,7 +50,7 @@ export const JEMORETreasury = new WorkData(
 export const SQLServerDatabase = new WorkData(
     0,
     false,
-    false, "SQL Server Database", "Database ...", "", "Database", "https://i.imgur.com/TODO.png",
+    false, "SQL Server Database", "sql_database", "Database ...", "", "Database", "https://i.imgur.com/TODO.png",
     ["SQL Server"], "", "", "", "",
     [""], "link",
 );
@@ -58,7 +58,7 @@ export const SQLServerDatabase = new WorkData(
 export const FightingGame = new WorkData(
     0,
     false,
-    false, "Fighting Game", "Desktop Game that...", "", "Desktop Game", "https://i.imgur.com/TODO.png",
+    false, "Fighting Game", "fighting_game", "Desktop Game that...", "", "Desktop Game", "https://i.imgur.com/TODO.png",
     ["Java"], "", "", "", "",
     [""], "link",
 );
@@ -66,7 +66,7 @@ export const FightingGame = new WorkData(
 export const ChessSoftware = new WorkData(
     0,
     false,
-    false, "Chess Software", "Desktop App that...", "", "Desktop App", "https://i.imgur.com/TODO.png",
+    false, "Chess Software", "chess", "Desktop App that...", "", "Desktop App", "https://i.imgur.com/TODO.png",
     ["Java"], "", "", "", "",
     [""], "link",
 );
@@ -74,7 +74,7 @@ export const ChessSoftware = new WorkData(
 export const PickyEater = new WorkData(
     0,
     false,
-    false, "Picky Eater", "Desktop App that...", "", "Desktop App", "https://i.imgur.com/TODO.png",
+    false, "Picky Eater", "picky_eater", "Desktop App that...", "", "Desktop App", "https://i.imgur.com/TODO.png",
     ["Java"], "", "", "", "",
     [""], "link",
 );
@@ -82,7 +82,7 @@ export const PickyEater = new WorkData(
 export const OldPortfolio = new WorkData(
     0,
     false,
-    false, "Old Portfolio", "Website ...", "", "Website", "https://i.imgur.com/TODO.png",
+    false, "Old Portfolio", "old_portfolio", "Website ...", "", "Website", "https://i.imgur.com/TODO.png",
     ["HTML", "CSS", "JavaScript"], "", "", "", "",
     ["", "",
     ], "https://claudiodimaioold.netlify.app/",
@@ -91,7 +91,7 @@ export const OldPortfolio = new WorkData(
 export const HangmanGame = new WorkData(
     0,
     false,
-    false, "Hangman Game", "Command line game that...", "", "Command Line Game", "https://i.imgur.com/TODO.png",
+    false, "Hangman Game", "hangman", "Command line game that...", "", "Command Line Game", "https://i.imgur.com/TODO.png",
     ["C"], "", "", "", "",
     ["", "",
     ], "",

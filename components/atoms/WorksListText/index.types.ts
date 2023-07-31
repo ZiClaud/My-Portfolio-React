@@ -1,6 +1,5 @@
+import WorkData from "@/basics/WorkData";
+
 export default interface WorksListTextProps {
-    title: string;
-    description: string;
-    descriptionBold: string;
-    category: string;
+    workData: WorkData;
 }

@@ -5,18 +5,10 @@ import ViewWorkButtonProps from "./index.types"
 import Button from "@atoms/Button";
 
 // TODO: Change ${title} to ${linkName}
-const ViewWorkButton: FC<ViewWorkButtonProps> = ({
-                                                     title,
-                                                     skills,
-                                                     descriptionLong1,
-                                                     descriptionLongBold1,
-                                                     descriptionLong2,
-                                                     descriptionLongBold2,
-                                                     urlAllImages
-                                                 }) => {
+const ViewWorkButton: FC<ViewWorkButtonProps> = ({workData }) => {
     return <>
         <div className="flex flex-row justify-center items-center py-4">
-            <Button text="VIEW WORK" link={`/works/${title}`}/>
+            <Button text="VIEW WORK" link={`/works/${workData.linkName}`}/>
         </div>
     </>
 }
