@@ -1,12 +1,21 @@
-import React, {FC} from "react";
+import React, {FC, useEffect} from "react";
 import AllWorksPageProps from "./index.types";
 import Typography from "@atoms/Typography";
 import {AllWorks} from "@/database/fakeDB";
 import Padding from "@atoms/Padding";
 import WorkData from "@/basics/WorkData";
 import AllWorksImage from "@atoms/AllWorksImage";
+import {useLocation} from "react-router-dom";
 
 const AllWorksPage: FC<AllWorksPageProps> = ({}) => {
+
+    const { pathname } = useLocation();
+
+    // Automatically scrolls to top whenever pathname changes
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [pathname]);
+
     const chunkWorks = (works: WorkData[], chunkSize: number) => {
         const chunkedArray = [];
         for (let i = 0; i < works.length; i += chunkSize) {
