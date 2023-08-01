@@ -1,7 +1,5 @@
 import WorkData from "@/basics/WorkData";
 
-// TODO: add my first react tests
-
 export const IremiApp = new WorkData(
     20230318,
     true,
@@ -20,6 +18,24 @@ export const JEIOM = new WorkData(
     ], "www.jeiom23.com",
 );
 
+export const ReactTest2 = new WorkData(
+    20220000,
+    true,
+    false, "React 2", "react2", "...", "...", "Website", "https://i.imgur.com/TODO.png",
+    ["React", "Node", "TailwindCSS"], "", "", "", "",
+    ["", "",
+    ], "",
+);
+
+export const ReactTest1 = new WorkData(
+    20220001,
+    true,
+    false, "React 1", "react1", "...", "...", "Website", "https://i.imgur.com/wGPTSV3.png",
+    ["React", "Node", "TailwindCSS"], "", "", "", "",
+    ["", "",
+    ], "",
+);
+
 export const Portfolio = new WorkData(
     20230426,
     true,
@@ -32,7 +48,7 @@ export const Portfolio = new WorkData(
 export const JEMOREApp = new WorkData(
     20220727,
     false,
-    false, "JEMORE App", "jemore_app", "Application ...", "", "Mobile App", "https://i.imgur.com/TODO.png",
+    false, "JEMORE App", "jemore_app", "Application ...", "", "Mobile App", "https://i.imgur.com/WrD3akd.png",
     ["Flutter", "Dart", "Parse"], "", "", "", "",
     ["", "",
     ], "link",
@@ -41,7 +57,7 @@ export const JEMOREApp = new WorkData(
 export const JEMORETreasury = new WorkData(
     20220803,
     false,
-    false, "JEMORE Treasury", "jemore_treasury", "Website ...", "", "Website", "https://i.imgur.com/TODO.png",
+    false, "JEMORE Treasury", "jemore_treasury", "Website ...", "", "Website", "https://i.imgur.com/NpWRniN.png",
     ["Flutter", "Dart"], "", "", "", "",
     ["", "",
     ], "link",
@@ -50,7 +66,7 @@ export const JEMORETreasury = new WorkData(
 export const SQLServerDatabase = new WorkData(
     0,
     false,
-    false, "SQL Server Database", "sql_database", "Database ...", "", "Database", "https://i.imgur.com/TODO.png",
+    false, "SQL Server Database", "sql_database", "Database ...", "", "Database", "https://i.imgur.com/l9hWzLi.png",
     ["SQL Server"], "", "", "", "",
     [""], "link",
 );
@@ -74,7 +90,7 @@ export const ChessSoftware = new WorkData(
 export const PickyEater = new WorkData(
     0,
     false,
-    false, "Picky Eater", "picky_eater", "Desktop App that...", "", "Desktop App", "https://i.imgur.com/TODO.png",
+    false, "Picky Eater", "picky_eater", "Desktop App that...", "", "Desktop App", "https://i.imgur.com/ILeeONf.png",
     ["Java"], "", "", "", "",
     [""], "link",
 );
@@ -82,7 +98,7 @@ export const PickyEater = new WorkData(
 export const OldPortfolio = new WorkData(
     0,
     false,
-    false, "Old Portfolio", "old_portfolio", "Website ...", "", "Website", "https://i.imgur.com/TODO.png",
+    false, "Old Portfolio", "old_portfolio", "Website ...", "", "Website", "https://i.imgur.com/dA288Wb.png",
     ["HTML", "CSS", "JavaScript"], "", "", "", "",
     ["", "",
     ], "https://claudiodimaioold.netlify.app/",
@@ -102,6 +118,8 @@ export const AllWorks = [
     IremiApp,
     JEIOM,
     Portfolio,
+    ReactTest2,
+    ReactTest1,
     JEMOREApp,
     JEMORETreasury,
     SQLServerDatabase,
