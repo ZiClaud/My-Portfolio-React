@@ -71,18 +71,18 @@ export const SQLServerDatabase = new WorkData(
     [""], "link",
 );
 
-export const FightingGame = new WorkData(
+export const ChessSoftware = new WorkData(
     0,
     false,
-    false, "Fighting Game", "fighting_game", "Desktop Game that...", "", "Desktop Game", "https://i.imgur.com/TODO.png",
+    false, "Chess Software", "chess", "Desktop App that...", "", "Desktop App", "https://i.imgur.com/BfPrqrh.png",
     ["Java"], "", "", "", "",
     [""], "link",
 );
 
-export const ChessSoftware = new WorkData(
+export const FightingGame = new WorkData(
     0,
     false,
-    false, "Chess Software", "chess", "Desktop App that...", "", "Desktop App", "https://i.imgur.com/TODO.png",
+    false, "Fighting Game", "fighting_game", "Desktop Game that...", "", "Desktop Game", "https://i.imgur.com/3fQrf61.png",
     ["Java"], "", "", "", "",
     [""], "link",
 );
@@ -124,6 +124,7 @@ export const AllWorks = [
     JEMORETreasury,
     SQLServerDatabase,
     ChessSoftware,
+    FightingGame,
     PickyEater,
     OldPortfolio,
     HangmanGame,
