@@ -2,9 +2,9 @@ import React, {FC} from "react";
 import AllWorksPageProps from "./index.types";
 import Typography from "@atoms/Typography";
 import {AllWorks} from "@/database/fakeDB";
-import Image from "next/image";
 import Padding from "@atoms/Padding";
 import WorkData from "@/basics/WorkData";
+import AllWorksImage from "@atoms/AllWorksImage";
 
 const AllWorksPage: FC<AllWorksPageProps> = ({}) => {
     const chunkWorks = (works: WorkData[], chunkSize: number) => {
@@ -28,10 +28,10 @@ const AllWorksPage: FC<AllWorksPageProps> = ({}) => {
                         <div key={index} className="flex justify-center items-center space-x-10">
                             {chunk.map((work) => (
                                 <div key={work.title}>
-                                    <Typography variant="h3" color="neutral-1" bold={true}>
+                                    <Typography variant="h4" color="neutral-1" bold={true}>
                                         {work.title}
                                     </Typography>
-                                    <Image src={work.urlImage} alt={work.category} width={300} height={200}/>
+                                    <AllWorksImage urlImage={work.urlImage}/>
                                     <Padding/>
                                 </div>
                             ))}
