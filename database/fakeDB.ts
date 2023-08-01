@@ -105,7 +105,7 @@ export const OldPortfolio = new WorkData(
 );
 
 export const HangmanGame = new WorkData(
-    0,
+    20201204,
     false,
     false, "Hangman Game", "hangman", "Command line game that...", "", "Command Line Game", "https://i.imgur.com/TODO.png",
     ["C"], "", "", "", "",
