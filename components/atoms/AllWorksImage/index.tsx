@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const AllWorksImage: FC<AllWorksImageProps> = ({ urlImage, text }) => {
   return (
-      <div className="flex flex-col justify-center items-center mobile:w-[20vw] tablet:w-[20vw]">
+      <div className="flex flex-col justify-center items-center">
         <div className="w-[300px] h-[200px] flex justify-center items-center group relative">
           <Image
               src={urlImage}
