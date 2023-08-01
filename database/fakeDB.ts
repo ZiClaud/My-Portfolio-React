@@ -21,7 +21,7 @@ export const JEIOM = new WorkData(
 export const ReactTest2 = new WorkData(
     20220000,
     true,
-    false, "React 2", "react2", "...", "...", "Website", "https://i.imgur.com/TODO.png",
+    false, "React 2", "react2", "...", "...", "Website", "https://i.imgur.com/TXE0NFx.png",
     ["React", "Node", "TailwindCSS"], "", "", "", "",
     ["", "",
     ], "",
@@ -30,7 +30,7 @@ export const ReactTest2 = new WorkData(
 export const ReactTest1 = new WorkData(
     20220001,
     true,
-    false, "React 1", "react1", "...", "...", "Website", "https://i.imgur.com/wGPTSV3.png",
+    false, "React 1", "react1", "...", "...", "Website", "https://i.imgur.com/8AXClU0.png",
     ["React", "Node", "TailwindCSS"], "", "", "", "",
     ["", "",
     ], "",
@@ -107,7 +107,7 @@ export const OldPortfolio = new WorkData(
 export const HangmanGame = new WorkData(
     20201204,
     false,
-    false, "Hangman Game", "hangman", "Command line game that...", "", "Command Line Game", "https://i.imgur.com/TODO.png",
+    false, "Hangman Game", "hangman", "Command line game that...", "", "Command Line Game", "https://i.imgur.com/tdtrOVx.png",
     ["C"], "", "", "", "",
     ["", "",
     ], "",
