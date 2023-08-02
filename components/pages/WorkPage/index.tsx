@@ -43,7 +43,7 @@ const WorkPage: FC<WorkPageProps> = ({}) => {    // Scroll to top when the page 
             </Layout>
         */}
         <div className="flex flex-col justify-center items-center">
-            <Image src={workData.urlImage} alt={workData.title} width={1300} height={1300}
+            <Image src={workData.urlImage} alt={workData.title} width={1300} height={735}
                    className="rounded-3xl border-[3px] border-neutral-2-color"/>
         </div>
         <Padding/>
