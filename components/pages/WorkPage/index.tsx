@@ -9,6 +9,7 @@ import {useLocation, useParams} from "react-router-dom";
 import Layout from "@atoms/Layout";
 import WorkData from "@/basics/WorkData";
 import {AllWorks, WorkNotFound} from "@/database/fakeDB";
+import CardList from "@molecules/CardList";
 
 const WorkPage: FC<WorkPageProps> = ({}) => {    // Scroll to top when the page is loaded
     const {pathname} = useLocation();
@@ -33,10 +34,9 @@ const WorkPage: FC<WorkPageProps> = ({}) => {    // Scroll to top when the page 
             <div className="flex flex-col justify-center items-center">
                 <Typography variant="h2" color="neutral-1" bold={true}>{workData.title}</Typography>
                 <Typography variant="h4" color="neutral-2">{workData.category}</Typography>
-                <Typography variant="h3" color="neutral-2">{workData.skills.join(", ")}</Typography>
+                <CardList textList={workData.skills}/>
             </div>
         </Layout>
-        <Padding/>
         {/*
             <Layout>
                 <Typography variant="label" color="neutral-2">{workData.id}</Typography>
