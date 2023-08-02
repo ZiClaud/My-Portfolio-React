@@ -1,1 +1,2 @@
-export default interface LoadingPageProps { }
+export default interface LoadingPageProps {
+}

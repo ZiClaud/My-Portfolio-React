@@ -1,5 +1,24 @@
 import WorkData from "@/basics/WorkData";
 
+export const WorkNotFound = new WorkData(
+    404,
+    false,
+    false,
+    "404",
+    "404",
+    "",
+    "",
+    "",
+    "",
+    [],
+    "",
+    "",
+    "",
+    "",
+    [],
+    "",
+);
+
 export const IremiApp = new WorkData(
     20230318,
     true,
