@@ -41,7 +41,7 @@ const AllWorksPage: FC<AllWorksPageProps> = ({}) => {
                                         <Typography variant="h4" color="neutral-1" bold={true}>
                                             {work.title}
                                         </Typography>
-                                        <AllWorksImage urlImage={work.urlImage} text={work.category}/>
+                                        <AllWorksImage urlImage={work.urlImage} text={work.category} linkName={work.linkName}/>
                                         <Padding/>
                                     </div>
                                 ))}

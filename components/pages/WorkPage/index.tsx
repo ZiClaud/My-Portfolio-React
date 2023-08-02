@@ -29,17 +29,19 @@ const WorkPage: FC<WorkPageProps> = ({}) => {    // Scroll to top when the page 
 
     return <>
         <Padding/>
-        <div className="flex flex-col justify-center items-center">
-            <Layout>
+        <Layout>
+            <div className="flex flex-col justify-center items-center">
                 <Typography variant="h2" color="neutral-1" bold={true}>{workData.title}</Typography>
                 <Typography variant="h4" color="neutral-2">{workData.category}</Typography>
                 <Typography variant="h3" color="neutral-2">{workData.skills.join(", ")}</Typography>
-            </Layout>
-        </div>
-        <Padding/>
-        <Layout>
-            <Typography variant="label" color="neutral-2">{workData.id}</Typography>
+            </div>
         </Layout>
+        <Padding/>
+        {/*
+            <Layout>
+                <Typography variant="label" color="neutral-2">{workData.id}</Typography>
+            </Layout>
+        */}
         <div className="flex flex-col justify-center items-center">
             <Image src={workData.urlImage} alt={workData.title} width={1300} height={1300}/>
         </div>
