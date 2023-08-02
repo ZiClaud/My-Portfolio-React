@@ -22,18 +22,34 @@ export default class WorkData {
         imageFirst: boolean,
         title: string,
         linkName: string,
-        description: string,
-        descriptionBold: string,
+        description: string | undefined,
+        descriptionBold: string | undefined,
         category: string,
         urlImage: string,
         skills: string[],
         descriptionLong1: string,
         descriptionLongBold1: string,
-        descriptionLong2: string,
-        descriptionLongBold2: string,
+        descriptionLong2: string | undefined,
+        descriptionLongBold2: string | undefined,
         urlAllImages: string[],
-        link: string
+        link: string | undefined,
     ) {
+        if (!visible || description === undefined || descriptionBold === undefined) {
+            visible = false;
+            description = "";
+            descriptionBold = "";
+            imageFirst = false;
+        }
+        if (link === undefined) {
+            link = "";
+        }
+        if (descriptionLong2 === undefined) {
+            descriptionLong2 = "";
+        }
+        if (descriptionLongBold2 === undefined) {
+            descriptionLongBold2 = "";
+        }
+
         this.id = id;
         this.visible = visible;
         this.imageFirst = imageFirst;

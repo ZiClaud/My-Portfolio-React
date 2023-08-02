@@ -8,10 +8,8 @@ import AllWorksImage from "@atoms/AllWorksImage";
 import {useLocation} from "react-router-dom";
 
 const AllWorksPage: FC<AllWorksPageProps> = ({}) => {
-
+    // Scroll to top when the page is loaded
     const { pathname } = useLocation();
-
-    // Automatically scrolls to top whenever pathname changes
     useEffect(() => {
         window.scrollTo(0, 0);
     }, [pathname]);

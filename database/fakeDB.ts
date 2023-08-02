@@ -4,9 +4,9 @@ export const IremiApp = new WorkData(
     20230318,
     true,
     true, "Iremi App", "iremi", "I developed this app entirely on my own, and it offers users a range of breathing exercises that are specifically designed to ", "promote relaxation and mindfulness.", "Mobile App", "https://i.imgur.com/eoEx6Tt.png?1",
-    ["Flutter", "Dart", "Firebase"], "", "", "", "",
+    ["Flutter", "Dart", "Firebase"],  "Iremi is a mobile app designed to help users ", "combat anxiety through guided breathing exercises. ", "Using Flutter and Dart, I have created a simple and intuitive app that offers a variety of breathing exercises tailored to he users' needs. \nThe app also includes a progress tracker that allows users to monitor their breathing habits and ", "track their progress over time.",
     ["", "",
-    ], "link",
+    ], "https://github.com/ZiClaud/Iremi-Breathing-App",
 );
 
 export const JEIOM = new WorkData(
@@ -19,21 +19,21 @@ export const JEIOM = new WorkData(
 );
 
 export const ReactTest2 = new WorkData(
-    20220000,
+    20230601,
     true,
     false, "React 2", "react2", "...", "...", "Website", "https://i.imgur.com/TXE0NFx.png",
     ["React", "Node", "TailwindCSS"], "", "", "", "",
     ["", "",
-    ], "",
+    ], "https://github.com/ZiClaud/nextjs-tailwindcss-template",
 );
 
 export const ReactTest1 = new WorkData(
-    20220001,
+    20220528,
     true,
     false, "React 1", "react1", "...", "...", "Website", "https://i.imgur.com/8AXClU0.png",
     ["React", "Node", "TailwindCSS"], "", "", "", "",
     ["", "",
-    ], "",
+    ], "https://github.com/EscanorTargaryen/dash2",
 );
 
 export const Portfolio = new WorkData(
@@ -51,7 +51,7 @@ export const JEMOREApp = new WorkData(
     false, "JEMORE App", "jemore_app", "Application ...", "", "Mobile App", "https://i.imgur.com/WrD3akd.png",
     ["Flutter", "Dart", "Parse"], "", "", "", "",
     ["", "",
-    ], "link",
+    ], "https://play.google.com/store/apps/details?id=it.jemore.jemore_services",
 );
 
 export const JEMORETreasury = new WorkData(
@@ -60,7 +60,7 @@ export const JEMORETreasury = new WorkData(
     false, "JEMORE Treasury", "jemore_treasury", "Website ...", "", "Website", "https://i.imgur.com/NpWRniN.png",
     ["Flutter", "Dart"], "", "", "", "",
     ["", "",
-    ], "link",
+    ], undefined,
 );
 
 export const SQLServerDatabase = new WorkData(
@@ -68,7 +68,7 @@ export const SQLServerDatabase = new WorkData(
     false,
     false, "SQL Server Database", "sql_database", "Database ...", "", "Database", "https://i.imgur.com/l9hWzLi.png",
     ["SQL Server"], "", "", "", "",
-    [""], "link",
+    [""], undefined,
 );
 
 export const ChessSoftware = new WorkData(
@@ -76,7 +76,7 @@ export const ChessSoftware = new WorkData(
     false,
     false, "Chess Software", "chess", "Desktop App that...", "", "Desktop App", "https://i.imgur.com/BfPrqrh.png",
     ["Java"], "", "", "", "",
-    [""], "link",
+    [""], "https://github.com/ZiClaud/Chess",
 );
 
 export const FightingGame = new WorkData(
@@ -84,7 +84,7 @@ export const FightingGame = new WorkData(
     false,
     false, "Fighting Game", "fighting_game", "Desktop Game that...", "", "Desktop Game", "https://i.imgur.com/3fQrf61.png",
     ["Java"], "", "", "", "",
-    [""], "link",
+    [""], "https://github.com/ZiClaud/FightingGame",
 );
 
 export const PickyEater = new WorkData(
@@ -92,7 +92,7 @@ export const PickyEater = new WorkData(
     false,
     false, "Picky Eater", "picky_eater", "Desktop App that...", "", "Desktop App", "https://i.imgur.com/ILeeONf.png",
     ["Java"], "", "", "", "",
-    [""], "link",
+    [""], "https://github.com/ZiClaud/PickyEaterApp",
 );
 
 export const OldPortfolio = new WorkData(
@@ -110,7 +110,7 @@ export const HangmanGame = new WorkData(
     false, "Hangman Game", "hangman", "Command line game that...", "", "Command Line Game", "https://i.imgur.com/tdtrOVx.png",
     ["C"], "", "", "", "",
     ["", "",
-    ], "",
+    ], "https://github.com/ZiClaud/Hangman_C",
 );
 
 
