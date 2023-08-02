@@ -54,13 +54,13 @@ export const JEIOM = new WorkData(
     "https://i.imgur.com/nu9WG4d.png",
     [
         "React",
-        "Node",
         "TailwindCSS",
+        "NodeJS",
     ],
-    "",
-    "",
-    "",
-    "",
+    "JEIOM23 is a dynamic website designed specifically for the JEIOM 2023 event. It provides users with convenient access to the",
+    "event's schedule, comprehensive information about the event itself, and recommendations on must-see attractions and experiences.\n",
+    "Our dedicated team utilized a powerful tech stack comprising React, TailwindCSS, and NodeJS to develop this feature-rich website, ensuring a",
+    "seamless and immersive user experience.",
     [""],
     "www.jeiom23.com",
 );
@@ -77,7 +77,6 @@ export const ReactTest2 = new WorkData(
     "https://i.imgur.com/TXE0NFx.png",
     [
         "React",
-        "Node",
         "TailwindCSS",
     ],
     "",
@@ -100,7 +99,6 @@ export const ReactTest1 = new WorkData(
     "https://i.imgur.com/8AXClU0.png",
     [
         "React",
-        "Node",
         "TailwindCSS",
     ],
     "",
@@ -124,6 +122,7 @@ export const Portfolio = new WorkData(
     [
         "React",
         "TailwindCSS",
+        "NodeJS",
     ],
     "",
     "",
