@@ -122,6 +122,7 @@ export const ReactTest1 = new WorkData(
     "dynamic and interactive web application.",
     [
         "https://i.imgur.com/8AXClU0.png",
+        "https://i.imgur.com/wGPTSV3.png",
     ],
     "https://github.com/EscanorTargaryen/dash2",
 );
@@ -162,7 +163,7 @@ export const JEMOREApp = new WorkData(
     "Application ...",
     "",
     "Mobile App",
-    "https://i.imgur.com/WrD3akd.png",
+    "https://i.imgur.com/XATCJuR.png",
     [
         "Flutter",
         "Dart",
@@ -173,7 +174,8 @@ export const JEMOREApp = new WorkData(
     "",
     "",
     [
-        "https://i.imgur.com/WrD3akd.png",
+        "https://i.imgur.com/XATCJuR.png",
+        "https://i.imgur.com/PSJvptV.png",
     ],
     "https://play.google.com/store/apps/details?id=it.jemore.jemore_services",
 );
@@ -198,6 +200,9 @@ export const JEMORETreasury = new WorkData(
     "",
     [
         "https://i.imgur.com/NpWRniN.png",
+        "https://i.imgur.com/MieVdCy.png",
+        "https://i.imgur.com/PXnXte4.png",
+        "https://i.imgur.com/Ri4sx8S.png",
     ],
     undefined,
 );
@@ -239,6 +244,7 @@ export const ChessSoftware = new WorkData(
     "",
     [
         "https://i.imgur.com/BfPrqrh.png",
+        "https://i.imgur.com/xzaisCW.png",
     ],
     "https://github.com/ZiClaud/Chess",
 );
@@ -273,7 +279,7 @@ export const PickyEater = new WorkData(
     "Desktop App that...",
     "",
     "Desktop App",
-    "https://i.imgur.com/ILeeONf.png",
+    "https://i.imgur.com/dRxlxf2.png",
     ["Java"],
     "A collaborative masterpiece and a memorable university project. Teaming up with Federico Matarante, we embarked on a journey into the realm of Java programming and Object-Oriented Programming (OOP). This Desktop Application ",
     "was designed to cater to picky eaters, offering personalized meal recommendations based on individual preferences and dietary restrictions. ",
@@ -281,6 +287,11 @@ export const PickyEater = new WorkData(
     "",
     [
         "https://i.imgur.com/ILeeONf.png",
+        "https://i.imgur.com/iGmpND4.png",
+        "https://i.imgur.com/Lm5P0e1.png",
+        "https://i.imgur.com/2WxL41m.png",
+        "https://i.imgur.com/dRxlxf2.png",
+        "https://i.imgur.com/Ei186oz.png",
     ],
     "https://github.com/ZiClaud/PickyEaterApp",
 );
@@ -306,6 +317,9 @@ export const OldPortfolio = new WorkData(
     "",
     [
         "https://i.imgur.com/dA288Wb.png",
+        "https://i.imgur.com/B92q59u.png",
+        "https://i.imgur.com/UEgeKfc.png",
+        "https://i.imgur.com/3V2L6kf.png",
     ],
     "https://claudiodimaioold.netlify.app/",
 );
