@@ -29,22 +29,13 @@ const WorkPage: FC<WorkPageProps> = ({}) => {    // Scroll to top when the page 
     }, [linkName, pathname]);
 
     return <>
-        <Padding/>
         <Layout>
             <div className="flex flex-col justify-center items-center">
-                <Typography variant="h2" color="neutral-1" bold={true}>{workData.title}</Typography>
-                <Typography variant="h4" color="neutral-2">{workData.category}</Typography>
-                <CardList textList={workData.skills}/>
+                <Typography variant="h2" color="neutral-1" bold={true} className="pt-5">{workData.title}</Typography>
+                <Typography variant="h4" color="neutral-2" className="pb-5">{workData.category}</Typography>
                 <WorksCarousel images={workData.urlAllImages}/>
+                <CardList textList={workData.skills}/>
             </div>
-        </Layout>
-        {/*
-            <Layout>
-                <Typography variant="label" color="neutral-2">{workData.id}</Typography>
-            </Layout>
-        */}
-        <Padding/>
-        <Layout>
             <Typography variant="h3" color="neutral-2" bold={true}>{workData.descriptionLong1}</Typography>
             <Typography variant="h3" color="neutral-1" bold={true}>{workData.descriptionLongBold1}</Typography>
             <Typography variant="h3" color="neutral-2" bold={true}>{workData.descriptionLong2}</Typography>
