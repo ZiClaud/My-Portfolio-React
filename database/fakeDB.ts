@@ -38,7 +38,12 @@ export const Iremi = new WorkData(
     "combat anxiety through guided breathing exercises. ",
     "Using Flutter and Dart, I have created a simple and intuitive app that offers a variety of breathing exercises tailored to he users' needs. \nThe app also includes a progress tracker that allows users to monitor their breathing habits and ",
     "track their progress over time.",
-    [""],
+    [
+        "https://i.imgur.com/eoEx6Tt.png?1",
+        "https://i.imgur.com/zf0f2OA.png",
+        "https://i.imgur.com/rzRn7Us.png",
+        "https://i.imgur.com/34SF2m0.png",
+    ],
     "https://github.com/ZiClaud/Iremi-Breathing-App",
 );
 
@@ -61,7 +66,12 @@ export const JEIOM = new WorkData(
     "event's schedule, comprehensive information about the event itself, and recommendations on must-see attractions and experiences.\n",
     "Our dedicated team utilized a powerful tech stack comprising React, TailwindCSS, and NodeJS to develop this feature-rich website, ensuring a",
     "seamless and immersive user experience.",
-    [""],
+    [
+        "https://i.imgur.com/9phy7Yo.png",
+        "https://i.imgur.com/nu9WG4d.png",
+        "https://i.imgur.com/cnQv4yJ.png",
+        "https://i.imgur.com/NiRigYm.png",
+    ],
     "www.jeiom23.com",
 );
 
@@ -83,7 +93,12 @@ export const ReactTest2 = new WorkData(
     "\"React1\". ",
     "As a passionate React developer, I took on the challenge of creating this project independently, delving deeper into the nuances of React and honing my skills further. ",
     "",
-    [""],
+    [
+        "https://i.imgur.com/TXE0NFx.png",
+        "https://i.imgur.com/TwFBzR2.png",
+        "https://i.imgur.com/CGMWQYO.png",
+        "https://i.imgur.com/Lmnqzw4.png",
+    ],
     "https://github.com/ZiClaud/nextjs-tailwindcss-template",
 );
 
@@ -105,7 +120,9 @@ export const ReactTest1 = new WorkData(
     "collaboration with a talented group of colleagues, ",
     "this project showcases our collective efforts in harnessing the power of React to build a ",
     "dynamic and interactive web application.",
-    [""],
+    [
+        "https://i.imgur.com/8AXClU0.png",
+    ],
     "https://github.com/EscanorTargaryen/dash2",
 );
 
@@ -130,7 +147,9 @@ export const Portfolio = new WorkData(
     "first in Flutter and then recreating it in React. ",
     "In the initial phase, I utilized Flutter and its versatile widgets to craft a visually appealing and interactive portfolio. As I honed my skills and explored new technologies, I decided to reimagine the portfolio using React, ",
     "leveraging its component-based architecture and vast ecosystem.",
-    [""],
+    [
+        "https://i.imgur.com/5yosKhp.png",
+    ],
     "https://claudiodimaioflutter.netlify.app/",
 );
 
@@ -153,7 +172,9 @@ export const JEMOREApp = new WorkData(
     "",
     "",
     "",
-    [""],
+    [
+        "https://i.imgur.com/WrD3akd.png",
+    ],
     "https://play.google.com/store/apps/details?id=it.jemore.jemore_services",
 );
 
@@ -175,7 +196,9 @@ export const JEMORETreasury = new WorkData(
     "designed to streamline and enhance ",
     "the treasury management processes within the organization. ",
     "",
-    [""],
+    [
+        "https://i.imgur.com/NpWRniN.png",
+    ],
     undefined,
 );
 
@@ -194,7 +217,9 @@ export const SQLServerDatabase = new WorkData(
     "more efficient and robust SQL.",
     "",
     "",
-    [""], undefined,
+    [
+        "https://i.imgur.com/l9hWzLi.png",
+    ], undefined,
 );
 
 export const ChessSoftware = new WorkData(
@@ -212,7 +237,9 @@ export const ChessSoftware = new WorkData(
     "SOLID principles. With a passion for clean and maintainable code, I embarked on this project to ensure that each aspect of the game adheres to SOLID design principles. ",
     "",
     "",
-    [""],
+    [
+        "https://i.imgur.com/BfPrqrh.png",
+    ],
     "https://github.com/ZiClaud/Chess",
 );
 
@@ -231,7 +258,9 @@ export const FightingGame = new WorkData(
     "computer-controlled opponents. ",
     "Armed with Java's power and flexibility, I crafted this game with passion and determination, learning valuable lessons in ",
     "game mechanics, graphics rendering, and user interaction.",
-    [""],
+    [
+        "https://i.imgur.com/3fQrf61.png",
+    ],
     "https://github.com/ZiClaud/FightingGame",
 );
 
@@ -250,7 +279,9 @@ export const PickyEater = new WorkData(
     "was designed to cater to picky eaters, offering personalized meal recommendations based on individual preferences and dietary restrictions. ",
     "Through Picky Eater, I gained valuable insights into the power of OOP, mastering the art of creating robust and scalable code. ",
     "",
-    [""],
+    [
+        "https://i.imgur.com/ILeeONf.png",
+    ],
     "https://github.com/ZiClaud/PickyEaterApp",
 );
 
@@ -273,7 +304,9 @@ export const OldPortfolio = new WorkData(
     "where I designed and crafted an online portfolio from scratch ",
     "using HTML, JavaScript, and CSS. Take a trip down memory lane and witness my initial steps in the dynamic world of web development with my old Portfolio.",
     "",
-    [""],
+    [
+        "https://i.imgur.com/dA288Wb.png",
+    ],
     "https://claudiodimaioold.netlify.app/",
 );
 
@@ -292,7 +325,10 @@ export const HangmanGame = new WorkData(
     "entirely in C.",
     "It was made using the first programming language I learned.",
     "",
-    [""],
+    [
+        "https://i.imgur.com/tdtrOVx.png",
+        "https://i.imgur.com/FU85cY5.png",
+    ],
     "https://github.com/ZiClaud/Hangman_C",
 );
 

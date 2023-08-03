@@ -3,13 +3,13 @@
 import React, {FC, useEffect, useState} from "react";
 import WorkPageProps from "./index.types"
 import Typography from "@atoms/Typography";
-import Image from "next/image";
 import Padding from "@atoms/Padding";
 import {useLocation, useParams} from "react-router-dom";
 import Layout from "@atoms/Layout";
 import WorkData from "@/basics/WorkData";
 import {AllWorks, WorkNotFound} from "@/database/fakeDB";
 import CardList from "@molecules/CardList";
+import WorksCarousel from "@molecules/WorksCarousel";
 
 const WorkPage: FC<WorkPageProps> = ({}) => {    // Scroll to top when the page is loaded
     const {pathname} = useLocation();
@@ -35,6 +35,7 @@ const WorkPage: FC<WorkPageProps> = ({}) => {    // Scroll to top when the page 
                 <Typography variant="h2" color="neutral-1" bold={true}>{workData.title}</Typography>
                 <Typography variant="h4" color="neutral-2">{workData.category}</Typography>
                 <CardList textList={workData.skills}/>
+                <WorksCarousel images={workData.urlAllImages}/>
             </div>
         </Layout>
         {/*
@@ -42,10 +43,6 @@ const WorkPage: FC<WorkPageProps> = ({}) => {    // Scroll to top when the page 
                 <Typography variant="label" color="neutral-2">{workData.id}</Typography>
             </Layout>
         */}
-        <div className="flex flex-col justify-center items-center">
-            <Image src={workData.urlImage} alt={workData.title} width={1300} height={735}
-                   className="rounded-3xl border-[3px] border-neutral-2-color"/>
-        </div>
         <Padding/>
         <Layout>
             <Typography variant="h3" color="neutral-2" bold={true}>{workData.descriptionLong1}</Typography>
