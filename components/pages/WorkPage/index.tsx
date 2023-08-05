@@ -11,6 +11,7 @@ import {AllWorks, WorkNotFound} from "@/database/fakeDB";
 import CardList from "@molecules/CardList";
 import WorksCarousel from "@molecules/WorksCarousel";
 import LongDescription from "@molecules/LongDescription";
+import ClickLinkButton from "@molecules/ClickLinkButton";
 
 const WorkPage: FC<WorkPageProps> = ({}) => {    // Scroll to top when the page is loaded
     const {pathname} = useLocation();
@@ -39,8 +40,7 @@ const WorkPage: FC<WorkPageProps> = ({}) => {    // Scroll to top when the page 
             </div>
             <LongDescription variant="h3" desc1={workData.descriptionLong1} desc1bold={workData.descriptionLongBold1}
                              desc2={workData.descriptionLong2} desc2bold={workData.descriptionLongBold2}/>
-            <Padding/>
-            <Typography variant="h4" color="neutral-2">{workData.link}</Typography>
+            <ClickLinkButton workData={workData} />
             <Padding/>
         </Layout>
     </>
