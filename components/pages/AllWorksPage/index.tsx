@@ -35,7 +35,7 @@ const AllWorksPage: FC<AllWorksPageProps> = ({}) => {
                         <Padding/>
                         {chunkWorks(AllWorks, 3).map((chunk, index) => (
                             <div key={index}
-                                 className="flex flex-col tablet:flex-row justify-center items-center space-x-10">
+                                 className="flex flex-col tablet:flex-row tablet:space-x-10 justify-center items-center">
                                 {chunk.map((work) => (
                                     <div key={work.title}>
                                         <Typography variant="h4" color="neutral-1" bold={true}>

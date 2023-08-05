@@ -8,7 +8,7 @@ const AllWorksImage: FC<AllWorksImageProps> = ({urlImage, text, linkName}) => {
     return (
         <div className="flex flex-col justify-center items-center animated">
             <Link to={linkName}>
-                <div className="w-[300px] h-[200px] flex flex-col justify-center items-center group relative">
+                <div className="flex flex-col justify-center items-center group relative">
                     <Image
                         src={urlImage}
                         alt="404"
