@@ -6,7 +6,6 @@ import DartLogo from "@images/dart.svg";
 import ReactLogo from "@images/react.svg";
 import TailwindLogo from "@images/tailwind.svg";
 
-// TODO: Maybe change brightness, or find a good hover effect
 const SkillsList: FC<SkillsListProps> = ({}) => {
     return <>
         <div className="flex flex-row justify-around py-10">
