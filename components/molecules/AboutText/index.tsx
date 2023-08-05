@@ -1,6 +1,7 @@
 import React, {FC} from "react";
 import AboutTextProps from "./index.types"
 import Typography from "@atoms/Typography";
+import LongDescription from "@molecules/LongDescription";
 
 const AboutText: FC<AboutTextProps> = ({}) => {
     return <>
@@ -10,18 +11,13 @@ const AboutText: FC<AboutTextProps> = ({}) => {
             </Typography>
 
             <div>
-                <Typography variant="h3" color="neutral-2" bold={false}>
-                    As a software developer, I am driven to create digital experiences that are both&nbsp;
-                </Typography>
-                <Typography variant="h3" color="neutral-1" bold={true}>
-                    visually striking and intuitive to navigate.&nbsp;
-                </Typography>
-                <Typography variant="h3" color="neutral-2" bold={false}>
-                    Besides programming, I am also deeply interested in&nbsp;
-                </Typography>
-                <Typography variant="h3" color="neutral-1" bold={true}>
-                    design, music, and chess.
-                </Typography>
+                <LongDescription
+                    variant="h3"
+                    desc1="As a software developer, I am driven to create digital experiences that are both "
+                    desc1bold="visually striking and intuitive to navigate. "
+                    desc2="Besides programming, I am also deeply interested in "
+                    desc2bold="design, music, and chess."
+                />
             </div>
         </div>
     </>

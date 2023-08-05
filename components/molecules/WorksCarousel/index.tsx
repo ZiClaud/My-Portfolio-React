@@ -11,8 +11,9 @@ const WorksCarousel: FC<WorksCarouselProps> = ({images}) => {
             showIndicators={true}
             infiniteLoop={true}
             autoPlay={true}
-            swipeable={true}
-            emulateTouch={true}
+            showThumbs={false}
+            showStatus={false}
+            width="70vw"
         >
             {images.map((imageUrl, index) => (
                 <div key={index} className="flex flex-col justify-center items-center">
