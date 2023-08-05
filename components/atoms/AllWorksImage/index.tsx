@@ -6,15 +6,15 @@ import Typography from "@atoms/Typography";
 
 const AllWorksImage: FC<AllWorksImageProps> = ({urlImage, text, linkName}) => {
     return (
-        <div className="flex flex-col justify-center items-center animated">
+        <div className="flex flex-col justify-center items-center h-[250px]">
             <Link to={linkName}>
-                <div className="flex flex-col justify-center items-center group relative">
+                <div className="flex flex-col justify-center items-center group">
                     <Image
                         src={urlImage}
                         alt="404"
                         width={300}
                         height={200}
-                        className="rounded-t-3xl tablet:rounded-b-3xl group-hover:rounded-b-none group-hover:opacity-50"
+                        className="rounded-t-3xl tablet:rounded-b-3xl group-hover:rounded-b-none group-hover:opacity-50 transition"
                     />
                     <div
                         className="bottom-0 w-full bg-primary-color text-neutral-1-color py-2 px-4 flex tablet:hidden rounded-b-3xl group-hover:flex">
