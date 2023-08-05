@@ -127,6 +127,30 @@ export const ReactTest1 = new WorkData(
     "https://github.com/EscanorTargaryen/dash2",
 );
 
+export const OpenSource1 = new WorkData(
+    20230602,
+    false,
+    false,
+    "Open Source",
+    "opensource1",
+    "",
+    "",
+    "Open Source Contribution",
+    "https://i.imgur.com/MWBvBSE.png",
+    [
+        "Flutter",
+        "Dart",
+    ],
+    "I entered the world of open source by contributing to the ",
+    "\"Easy and Fast internationalization for your Flutter Apps\" repository. ",
+    "This impactful endeavor showcases my commitment to improving user experiences and collaborating with the wider development community. ",
+    "",
+    [
+        "https://i.imgur.com/MWBvBSE.png",
+    ],
+    "https://github.com/aissat/easy_localization/pull/593"
+)
+
 export const Portfolio = new WorkData(
     20230426,
     true,
@@ -350,6 +374,7 @@ export const HangmanGame = new WorkData(
 export const AllWorks = [
     Iremi,
     JEIOM,
+    OpenSource1,
     Portfolio,
     ReactTest2,
     ReactTest1,
