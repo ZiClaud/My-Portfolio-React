@@ -54,7 +54,7 @@ export const JEIOM = new WorkData(
     "JEIOM23",
     "jeiom",
     "I was part of a team that developed this website for the JEIOM 2023 event. Our goal was to create a platform that would enable users to ",
-    "organize their schedule for the event in a single, user-friendly interface",
+    "organize their schedule for the event in a single, user-friendly interface.",
     "Website",
     "https://i.imgur.com/nu9WG4d.png",
     [
@@ -62,9 +62,9 @@ export const JEIOM = new WorkData(
         "TailwindCSS",
         "NodeJS",
     ],
-    "JEIOM23 is a dynamic website designed specifically for the JEIOM 2023 event. It provides users with convenient access to the",
-    "event's schedule, comprehensive information about the event itself, and recommendations on must-see attractions and experiences.\n",
-    "Our dedicated team utilized a powerful tech stack comprising React, TailwindCSS, and NodeJS to develop this feature-rich website, ensuring a",
+    "JEIOM23 is a dynamic website designed specifically for the JEIOM 2023 event. It provides users with convenient access to the ",
+    "event's schedule, comprehensive information about the event itself, and recommendations on must-see attractions and experiences. \n",
+    "Our dedicated team utilized a powerful tech stack comprising React, TailwindCSS, and NodeJS to develop this feature-rich website, ensuring a ",
     "seamless and immersive user experience.",
     [
         "https://i.imgur.com/9phy7Yo.png",
@@ -145,7 +145,7 @@ export const Portfolio = new WorkData(
         "Dart",
     ],
     "A captivating project that serves as a reflection of my journey as a developer. Inspired by a design discovered online, I took on the challenge of creating my own portfolio, ",
-    "first in Flutter and then recreating it in React. ",
+    "first in Flutter and then recreated it in React. ",
     "In the initial phase, I utilized Flutter and its versatile widgets to craft a visually appealing and interactive portfolio. As I honed my skills and explored new technologies, I decided to reimagine the portfolio using React, ",
     "leveraging its component-based architecture and vast ecosystem.",
     [
@@ -313,7 +313,7 @@ export const OldPortfolio = new WorkData(
     ],
     "A significant milestone in my journey as a developer. It marks my first venture into the world of web development, ",
     "where I designed and crafted an online portfolio from scratch ",
-    "using HTML, JavaScript, and CSS. Take a trip down memory lane and witness my initial steps in the dynamic world of web development with my old Portfolio.",
+    "using HTML, JavaScript, and CSS. Take a trip down memory lane and witness my initial steps in the dynamic world of web development with my old Portfolio. ",
     "",
     [
         "https://i.imgur.com/dA288Wb.png",
@@ -334,10 +334,10 @@ export const HangmanGame = new WorkData(
     "",
     "Command Line Game",
     "https://i.imgur.com/tdtrOVx.png",
-    ["C"],
+    ["C Language"],
     "Hangman is my debut project. This command-line-based hangman game was crafted ",
-    "entirely in C.",
-    "It was made using the first programming language I learned.",
+    "entirely in C. ",
+    "It was made using the first programming language I learned. ",
     "",
     [
         "https://i.imgur.com/tdtrOVx.png",

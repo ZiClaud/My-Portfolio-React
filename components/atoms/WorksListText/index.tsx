@@ -2,13 +2,13 @@ import React, {FC} from "react";
 import WorksListTextProps from "./index.types"
 import Typography from "@atoms/Typography";
 import ViewWorkButton from "../../molecules/ViewWorkButton";
+import LongDescription from "@molecules/LongDescription";
 
 const WorksListText: FC<WorksListTextProps> = ({workData}) => {
     return <>
         <div className="hidden tablet:flex flex-col justify-center w-[40vw]" id="Tablet-Laptop-View">
             <Typography variant="h5" color="neutral-1" bold={true}>{workData.title}</Typography>
-            <Typography variant="h3" color="neutral-2" bold={true}>{workData.description}</Typography>
-            <Typography variant="h3" color="neutral-1" bold={true}>{workData.descriptionBold}</Typography>
+            <LongDescription variant="h3" desc1={workData.description} desc1bold={workData.descriptionBold}/>
             <Typography variant="body1" color="neutral-1" bold={false}>{workData.category}</Typography>
             <ViewWorkButton workData={workData}/>
         </div>

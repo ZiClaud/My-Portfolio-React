@@ -10,6 +10,7 @@ import WorkData from "@/basics/WorkData";
 import {AllWorks, WorkNotFound} from "@/database/fakeDB";
 import CardList from "@molecules/CardList";
 import WorksCarousel from "@molecules/WorksCarousel";
+import LongDescription from "@molecules/LongDescription";
 
 const WorkPage: FC<WorkPageProps> = ({}) => {    // Scroll to top when the page is loaded
     const {pathname} = useLocation();
@@ -36,10 +37,8 @@ const WorkPage: FC<WorkPageProps> = ({}) => {    // Scroll to top when the page 
                 <WorksCarousel images={workData.urlAllImages}/>
                 <CardList textList={workData.skills}/>
             </div>
-            <Typography variant="h3" color="neutral-2" bold={true}>{workData.descriptionLong1}</Typography>
-            <Typography variant="h3" color="neutral-1" bold={true}>{workData.descriptionLongBold1}</Typography>
-            <Typography variant="h3" color="neutral-2" bold={true}>{workData.descriptionLong2}</Typography>
-            <Typography variant="h3" color="neutral-1" bold={true}>{workData.descriptionLongBold2}</Typography>
+            <LongDescription variant="h3" desc1={workData.descriptionLong1} desc1bold={workData.descriptionLongBold1}
+                             desc2={workData.descriptionLong2} desc2bold={workData.descriptionLongBold2}/>
             <Padding/>
             <Typography variant="h4" color="neutral-2">{workData.link}</Typography>
             <Padding/>
