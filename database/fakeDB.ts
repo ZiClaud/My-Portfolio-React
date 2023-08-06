@@ -4,11 +4,11 @@ export const WorkNotFound = new WorkData(
     404,
     false,
     false,
+    "Error 404",
     "404",
-    "404",
     "",
     "",
-    "",
+    "Page not found",
     "",
     [],
     "",
@@ -16,7 +16,7 @@ export const WorkNotFound = new WorkData(
     "",
     "",
     [],
-    "",
+    undefined,
 );
 
 export const Iremi = new WorkData(
@@ -72,7 +72,7 @@ export const JEIOM = new WorkData(
         "https://i.imgur.com/cnQv4yJ.png",
         "https://i.imgur.com/NiRigYm.png",
     ],
-    "www.jeiom23.com",
+    "https://www.jeiom23.it/",
 );
 
 export const ReactTest2 = new WorkData(
@@ -99,7 +99,7 @@ export const ReactTest2 = new WorkData(
         "https://i.imgur.com/CGMWQYO.png",
         "https://i.imgur.com/Lmnqzw4.png",
     ],
-    "https://github.com/ZiClaud/nextjs-tailwindcss-template",
+    undefined, //"https://github.com/ZiClaud/Nextjs-Tailwindcss-Template"
 );
 
 export const ReactTest1 = new WorkData(
@@ -124,7 +124,7 @@ export const ReactTest1 = new WorkData(
         "https://i.imgur.com/8AXClU0.png",
         "https://i.imgur.com/wGPTSV3.png",
     ],
-    "https://github.com/EscanorTargaryen/dash2",
+    undefined, //"https://github.com/EscanorTargaryen/dash2"
 );
 
 export const OpenSource1 = new WorkData(
@@ -183,7 +183,7 @@ export const JEMOREApp = new WorkData(
     false,
     false,
     "JEMORE App",
-    "jemore_app",
+    "jemore-app",
     "Application ...",
     "",
     "Mobile App",
@@ -193,9 +193,9 @@ export const JEMOREApp = new WorkData(
         "Dart",
         "Parse",
     ],
-    "An innovative and powerful mobile application available on the Play Store. This cutting-edge app was designed to revolutionize meeting management and participation at JEMORE. With a focus on convenience and anonymity, the \"JEMORE App\" allows users to easily confirm their presence at meetings and cast anonymous votes on crucial matters. ",
-    "",
-    "",
+    "An innovative and powerful mobile application ",
+    "available on the Play Store. ",
+    "This cutting-edge app was designed to revolutionize meeting management and participation at JEMORE. With a focus on convenience and anonymity, the \"JEMORE App\" allows users to easily confirm their presence at meetings and cast anonymous votes on crucial matters. ",
     "",
     [
         "https://i.imgur.com/XATCJuR.png",
@@ -209,7 +209,7 @@ export const JEMORETreasury = new WorkData(
     false,
     false,
     "JEMORE Treasury",
-    "jemore_treasury",
+    "jemore-treasury",
     "Website ...",
     "",
     "Website",
@@ -236,7 +236,7 @@ export const SQLServerDatabase = new WorkData(
     false,
     false,
     "SQL Server Database",
-    "sql_database",
+    "sql-database",
     "Database ...",
     "",
     "Database",
@@ -278,7 +278,7 @@ export const FightingGame = new WorkData(
     false,
     false,
     "Fighting Game",
-    "fighting_game",
+    "fighting-game",
     "Desktop Game that...",
     "",
     "Desktop Game",
@@ -291,7 +291,7 @@ export const FightingGame = new WorkData(
     [
         "https://i.imgur.com/3fQrf61.png",
     ],
-    "https://github.com/ZiClaud/FightingGame",
+    "https://github.com/ZiClaud/Fighting-Game",
 );
 
 export const PickyEater = new WorkData(
@@ -299,7 +299,7 @@ export const PickyEater = new WorkData(
     false,
     false,
     "Picky Eater",
-    "picky_eater",
+    "picky-eater",
     "Desktop App that...",
     "",
     "Desktop App",
@@ -317,7 +317,7 @@ export const PickyEater = new WorkData(
         "https://i.imgur.com/dRxlxf2.png",
         "https://i.imgur.com/Ei186oz.png",
     ],
-    "https://github.com/ZiClaud/PickyEaterApp",
+    "https://github.com/ZiClaud/Picky-Eater",
 );
 
 export const OldPortfolio = new WorkData(
@@ -325,7 +325,7 @@ export const OldPortfolio = new WorkData(
     false,
     false,
     "Old Portfolio",
-    "old_portfolio",
+    "old-portfolio",
     "Website ...",
     "",
     "Website",
@@ -367,7 +367,7 @@ export const HangmanGame = new WorkData(
         "https://i.imgur.com/tdtrOVx.png",
         "https://i.imgur.com/FU85cY5.png",
     ],
-    "https://github.com/ZiClaud/Hangman_C",
+    "https://github.com/ZiClaud/Hangman-C",
 );
 
 
