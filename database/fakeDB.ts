@@ -1,5 +1,7 @@
 import WorkData from "@/basics/WorkData";
 
+// TODO: Create a real database
+// TODO: Create an admin page to access that database
 export const WorkNotFound = new WorkData(
     404,
     false,

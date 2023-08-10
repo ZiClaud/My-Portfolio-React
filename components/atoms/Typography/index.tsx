@@ -2,7 +2,6 @@ import React, {FC} from "react"
 import TypographyProps from "./index.types"
 import classNames from "classnames"
 
-// TODO: Use "bold"
 const Typography: FC<TypographyProps> = ({children, variant, color, bold, className}) => {
     switch (variant) {
         case "h1":
