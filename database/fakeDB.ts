@@ -58,7 +58,7 @@ export const JEIOM = new WorkData(
     "I was part of a team that developed this website for the JEIOM 2023 event. Our goal was to create a platform that would enable users to ",
     "organize their schedule for the event in a single, user-friendly interface.",
     "Website",
-    "https://i.imgur.com/nu9WG4d.png",
+    "https://i.imgur.com/apa36gM.png",
     [
         "React",
         "TailwindCSS",
@@ -69,10 +69,12 @@ export const JEIOM = new WorkData(
     "Our dedicated team utilized a powerful tech stack comprising React, TailwindCSS, and NodeJS to develop this feature-rich website, ensuring a ",
     "seamless and immersive user experience.",
     [
-        "https://i.imgur.com/9phy7Yo.png",
-        "https://i.imgur.com/nu9WG4d.png",
-        "https://i.imgur.com/cnQv4yJ.png",
-        "https://i.imgur.com/NiRigYm.png",
+        "https://i.imgur.com/apa36gM.png",
+        "https://i.imgur.com/86tvggz.png",
+        "https://i.imgur.com/FvOm6kL.png",
+        "https://i.imgur.com/2lh3ilq.png",
+        "https://i.imgur.com/CDk9U5P.png",
+        "https://i.imgur.com/WQB2yzk.png",
     ],
     "https://www.jeiom23.it/",
 );
