@@ -3,8 +3,8 @@
 import React, {FC} from "react";
 import HeaderProps from "./index.types"
 import Image from "next/image";
-import ZC from "@images/ZC_Logo.svg";
 import HeaderButton from "@molecules/HeaderButton";
+import ZC from "@images/ZC_Logo.svg";
 import HamburgerMenu from "@images/burger-menu.svg";
 
 const {useState} = React;
