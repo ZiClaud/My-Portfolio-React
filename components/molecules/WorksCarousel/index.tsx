@@ -2,7 +2,7 @@ import React, {FC} from "react";
 import ImageGallery from 'react-image-gallery';
 import WorksCarouselProps from "./index.types"
 
-import "react-image-gallery/styles/css/image-gallery.css";
+import "./my-image-gallery.css";
 
 const WorksCarousel: FC<WorksCarouselProps> = ({images}) => {
     const items = images.map((imageUrl) => ({original: imageUrl, thumbnail: imageUrl}));
