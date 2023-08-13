@@ -18,6 +18,7 @@ const WorksCarousel: FC<WorksCarouselProps> = ({images}) => {
                 showBullets={true}
                 showPlayButton={false}
                 showThumbnails={false}
+                showFullscreenButton={false}
             />
         </div>
     </>
