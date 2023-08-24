@@ -15,7 +15,7 @@ const WorksCarousel: FC<WorksCarouselProps> = ({images}) => {
                 autoPlay={true}
                 infinite={true}
                 showIndex={false}
-                showBullets={true}
+                showBullets={images.length > 1}
                 showPlayButton={false}
                 showThumbnails={false}
                 showFullscreenButton={false}
