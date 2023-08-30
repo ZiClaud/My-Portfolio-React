@@ -14,7 +14,7 @@ const AllWorksImage: FC<AllWorksImageProps> = ({urlImage, text, linkName}) => {
                         alt="404"
                         width={300}
                         height={200}
-                        className="rounded-t-3xl tablet:rounded-b-3xl group-hover:rounded-b-none group-hover:opacity-50 transition"
+                        className="rounded-t-3xl tablet:rounded-b-3xl group-hover:rounded-b-none group-hover:opacity-75 transition"
                     />
                     <div
                         className="bottom-0 w-full bg-primary-color text-neutral-1-color py-2 px-4 flex tablet:hidden rounded-b-3xl group-hover:flex">
