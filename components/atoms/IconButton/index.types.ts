@@ -1,5 +1,5 @@
 export default interface IconButtonProps {
-    src: string;
-    alt: string;
-    href: string;
+  src: string;
+  alt: string;
+  href: string;
 }

@@ -1,3 +1,3 @@
 export default interface CardProps {
-    text: string
+  text: string
 }

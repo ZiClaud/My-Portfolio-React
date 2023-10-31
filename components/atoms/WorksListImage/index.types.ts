@@ -1,3 +1,3 @@
 export default interface WorksListImageProps {
-    urlImage: string;
+  urlImage: string;
 }

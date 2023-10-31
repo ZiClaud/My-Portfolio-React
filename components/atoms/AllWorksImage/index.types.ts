@@ -1,5 +1,5 @@
 export default interface AllWorksImageProps {
-    urlImage: string;
-    text: string;
-    linkName: string;
+  urlImage: string;
+  text: string;
+  linkName: string;
 }

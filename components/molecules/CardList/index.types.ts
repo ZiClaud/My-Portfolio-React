@@ -1,3 +1,3 @@
 export default interface CardListProps {
-    textList: string[];
+  textList: string[];
 }

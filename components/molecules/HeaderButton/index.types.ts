@@ -1,7 +1,7 @@
-import React from "react";
+import React from "react"
 
 export default interface HeaderButtonProps {
-    children: React.ReactNode
-    variant: "mobile" | "laptop"
-    onClick: () => void
+  children: React.ReactNode
+  variant: "mobile" | "laptop"
+  onClick: () => void
 }

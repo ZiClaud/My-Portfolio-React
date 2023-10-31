@@ -1,3 +1,3 @@
 export default interface WorksCarouselProps {
-    images: string[];
+  images: string[];
 }

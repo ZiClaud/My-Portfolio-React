@@ -1,6 +1,6 @@
-import React from "react";
+import React from "react"
 
 export default interface SectionTitleProps {
-    text1: React.ReactNode
-    text2: React.ReactNode
+  text1: React.ReactNode
+  text2: React.ReactNode
 }
