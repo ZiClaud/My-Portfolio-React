@@ -39,9 +39,9 @@ export const CosmicGateway = new WorkData(
   "The game is made with Godot, a game engine that I love using. ",
   "Play now, by clicking the link below!",
   [
+    "https://i.imgur.com/MhTnzFf.mp4",
     "https://i.imgur.com/5gGsr4Q.png",
     "https://i.imgur.com/zGXQlHz.png",
-//    "https://i.imgur.com/MhTnzFf.mp4", // TODO: Add video support
   ],
   "https://zicli.itch.io/cosmic-gateway",
 )
