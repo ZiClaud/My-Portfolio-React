@@ -43,7 +43,7 @@ export const CosmicGateway = new WorkData(
     "https://i.imgur.com/5gGsr4Q.png",
     "https://i.imgur.com/zGXQlHz.png",
   ],
-  "https://zicli.itch.io/cosmic-gateway",
+  "https://ziclaud.itch.io/cosmic-gateway",
 )
 
 export const Bookshelf = new WorkData( // TODO
