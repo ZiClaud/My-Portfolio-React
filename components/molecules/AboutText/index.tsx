@@ -16,7 +16,7 @@ const AboutText: FC<AboutTextProps> = ({}) => {
           desc1="As a software developer, I am driven to create digital experiences that are both "
           desc1bold="visually striking and intuitive to navigate. "
           desc2="Besides programming, I am also deeply interested in "
-          desc2bold="design, music, and chess."
+          desc2bold="writing, design, music and chess."
         />
       </div>
     </div>
