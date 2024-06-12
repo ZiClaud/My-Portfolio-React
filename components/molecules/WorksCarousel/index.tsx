@@ -16,9 +16,10 @@ const WorksCarousel: FC<WorksCarouselProps> = ({ images }) => {
         infinite={true}
         showIndex={false}
         showBullets={images.length > 1}
-        showPlayButton={false}
+        showPlayButton={images.length > 1}
         showThumbnails={false}
         showFullscreenButton={false}
+        lazyLoad={true}
       />
     </div>
   </>
