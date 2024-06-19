@@ -4,6 +4,7 @@ import SectionTitle from "@molecules/SectionTitle"
 import WorksList from "@molecules/WorksList"
 import Button from "@atoms/Button"
 import { Iremi, JEIOM, Portfolio } from "@/database/fakeDB"
+import BigButton from "@atoms/BigButton"
 
 const Works: FC<WorksProps> = ({}) => {
   return <>
@@ -13,7 +14,7 @@ const Works: FC<WorksProps> = ({}) => {
       <WorksList workData={JEIOM} />
       <WorksList workData={Portfolio} />
       <div className="flex flex-row justify-center items-center py-4">
-        <Button text="VIEW ALL WORKS" link="/works" showArrow={false} />
+        <BigButton text="VIEW ALL WORKS" link="/works" />
       </div>
     </div>
   </>
