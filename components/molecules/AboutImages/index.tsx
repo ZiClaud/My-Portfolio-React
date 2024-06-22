@@ -8,7 +8,7 @@ const AboutImages: FC<AboutImagesProps> = ({}) => {
     <div className="hidden laptop:block w-[40vw] h-[1000px]">
       <div className="absolute pt-[0]">
         <Image
-          src="https://i.imgur.com/xB0QwcS.jpg"
+          src="https://i.imgur.com/IbPuHKd.jpeg"
           alt="404" width={282} height={374} className="rounded-3xl" object-fit="cover"
         />
       </div>
