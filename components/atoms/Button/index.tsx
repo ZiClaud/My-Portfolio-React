@@ -8,7 +8,7 @@ import { Link } from "react-router-dom"
 const Button: FC<ButtonProps> = ({ text, link, showArrow }) => {
   return <>
     <Link
-      className="flex flex-row justify-center items-center bg-transparent hover:bg-primary-color hover:scale-110 py-2 px-4 border border-neutral-1 rounded-3xl transition"
+      className="flex flex-row justify-center items-center bg-primary-color laptop:bg-transparent scale-110 laptop:scale-100 hover:scale-110 hover:bg-primary-color py-2 px-4 border border-neutral-1 rounded-3xl transition"
       to={link}>
       <Typography variant={"button"} color="neutral-1" bold={true}>{text}</Typography>
       {showArrow == true || showArrow == undefined ?

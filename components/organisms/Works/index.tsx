@@ -13,7 +13,7 @@ const Works: FC<WorksProps> = ({}) => {
       <WorksList workData={JEIOM} />
       <WorksList workData={Portfolio} />
       <div className="flex flex-row justify-center items-center py-4">
-        <BigButton text="VIEW ALL WORKS" link="/works" variant={"1"} />
+        <BigButton text="VIEW ALL WORKS" link="/works" variant={"0"} />
       </div>
     </div>
   </>

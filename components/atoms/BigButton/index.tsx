@@ -13,6 +13,14 @@ const BigButton: FC<BigButtonProps> = ({ text, link, variant }) => {
   ))
 
   switch (variant) {
+    case "0":
+      return <>
+        <Link
+          className="flex flex-row justify-center items-center bg-primary-color laptop:bg-transparent scale-150 laptop:scale-125 hover:scale-150 hover:bg-primary-color py-2 px-4 border border-neutral-1 rounded-3xl transition"
+          to={link}>
+          <Typography variant={"button"} color="neutral-1" bold={true}>{text}</Typography>
+        </Link>
+      </>
     case "1":
       return <>
         <Link className="flex flex-row justify-center items-center bg-transparent hover:scale-110 py-2 px-4 transition"
