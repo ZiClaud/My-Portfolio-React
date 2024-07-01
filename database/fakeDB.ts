@@ -127,7 +127,7 @@ export const JEIOM = new WorkData(
     "https://i.imgur.com/CDk9U5P.png",
     "https://i.imgur.com/WQB2yzk.png",
   ],
-  "https://www.jeiom23.it/",
+  "https://github.com/ZiClaud/JEIOM23",
 )
 
 export const ReactTest2 = new WorkData(
