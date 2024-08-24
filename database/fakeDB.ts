@@ -30,16 +30,20 @@ export const SudokuSolver = new WorkData( // TODO
   "...",
   "...",
   "Command Line Program",
-  "",
+  "https://i.imgur.com/vBfZFiH.gif",
   [
     "C",
+    "Python",
+    "Manim",
   ],
   "Wanted to challenge myself by programming a ",
   "sudoku solver in C",
-  ", ",
-  "",
+  ", also created an animation in ",
+  "Python using Manim.",
   [
-    "",
+    "https://i.imgur.com/vBfZFiH.gif",
+    "https://i.imgur.com/9wmrw5q.gif",
+    "https://i.imgur.com/1GamJ02.png",
   ],
   "https://github.com/ZiClaud/Sudoku-Solver",
 )
@@ -501,7 +505,7 @@ export const HangmanGame = new WorkData(
 
 
 export const AllWorks = [
-  // SudokuSolver,
+  SudokuSolver,
   // InfoWebApp,
   // GTEConverter,
   CosmicGateway,
