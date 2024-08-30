@@ -21,7 +21,30 @@ export const WorkNotFound = new WorkData(
   undefined,
 )
 
-export const SudokuSolver = new WorkData( // TODO
+export const Magium = new WorkData(
+  20240830,
+  false,
+  false,
+  "Magium",
+  "magium",
+  "...",
+  "...",
+  "Open Source Contribution",
+  "https://i.imgur.com/BApb3KZ.png",
+  [
+    "JavaScript",
+  ],
+  "Wanted to challenge myself by programming a ",
+  "sudoku solver in C",
+  ", also created an animation in ",
+  "Python using Manim.",
+  [
+    "https://i.imgur.com/BApb3KZ.png",
+  ],
+  "https://github.com/thuiop/magium-dev",
+)
+
+export const SudokuSolver = new WorkData(
   20240807,
   false,
   false,
@@ -505,6 +528,7 @@ export const HangmanGame = new WorkData(
 
 
 export const AllWorks = [
+  Magium,
   SudokuSolver,
   // InfoWebApp,
   // GTEConverter,
