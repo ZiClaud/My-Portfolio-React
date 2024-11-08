@@ -414,7 +414,7 @@ export const JEMORETreasury = new WorkData(
 )
 
 export const SQLServerDatabase = new WorkData(
-  0,
+  20220000,
   false,
   false,
   "SQL Server Database",
@@ -435,7 +435,7 @@ export const SQLServerDatabase = new WorkData(
 )
 
 export const ChessSoftware = new WorkData(
-  0,
+  20221211,
   false,
   false,
   "Chess",
@@ -457,7 +457,7 @@ export const ChessSoftware = new WorkData(
 )
 
 export const FightingGame = new WorkData(
-  0,
+  20221031,
   false,
   false,
   "Fighting Game",
@@ -478,7 +478,7 @@ export const FightingGame = new WorkData(
 )
 
 export const PickyEater = new WorkData(
-  0,
+  20220510,
   false,
   false,
   "Picky Eater",
@@ -504,7 +504,7 @@ export const PickyEater = new WorkData(
 )
 
 export const OldPortfolio = new WorkData(
-  0,
+  20221016,
   false,
   false,
   "Old Portfolio",

@@ -42,6 +42,9 @@ const WorkPage: FC<WorkPageProps> = ({}) => {    // Scroll to top when the page 
         <LongDescription variant="h3" desc1={workData.descriptionLong1} desc1bold={workData.descriptionLongBold1}
                          desc2={workData.descriptionLong2} desc2bold={workData.descriptionLongBold2} />
         <ClickLinkButton workData={workData} />
+        <div className="flex justify-end">
+          <Typography variant="body1" color="neutral-2" bold={true}>{workData.id}</Typography>
+        </div>
         <Padding />
       </div>
     </Layout>
