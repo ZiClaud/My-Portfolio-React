@@ -30,6 +30,20 @@ const WorkPage: FC<WorkPageProps> = ({}) => {    // Scroll to top when the page 
     }
   }, [linkName, pathname])
 
+  function getDateFromID(id: number): string {
+    if (id < 19000000 || id > 30000000) {
+      return ""
+    }
+
+    let ris: string
+    ris = (id % 100).toString()
+    id = Math.floor(id / 100)
+    ris = ris + "/" + (id % 100).toString()
+    id = Math.floor(id / 100)
+    ris = ris + "/" + (id % 10000).toString()
+    return ris
+  }
+
   return <>
     <Layout>
       <div className="flex flex-col bg-black-background">
@@ -43,7 +57,7 @@ const WorkPage: FC<WorkPageProps> = ({}) => {    // Scroll to top when the page 
                          desc2={workData.descriptionLong2} desc2bold={workData.descriptionLongBold2} />
         <ClickLinkButton workData={workData} />
         <div className="flex justify-end">
-          <Typography variant="body1" color="neutral-2" bold={true}>{workData.id}</Typography>
+          <Typography variant="body1" color="neutral-2" bold={true}>{getDateFromID(workData.id)}</Typography>
         </div>
         <Padding />
       </div>
