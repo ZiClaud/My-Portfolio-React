@@ -21,6 +21,33 @@ export const WorkNotFound = new WorkData(
   undefined,
 )
 
+export const MaterialYouNewTab = new WorkData(
+  20241014,
+  false,
+  false,
+  "MaterialYouNewTab",
+  "material-you-new-tab",
+  "...",
+  "...",
+  "Open Source Contribution",
+  "https://i.imgur.com/brPMJox.png",
+  [
+    "CSS",
+    "JavaScript",
+  ],
+  "Contributed to ",
+  "MaterialYouNewTab",
+  ", a Chrome, FireFox and Safari extension. By fixing the dark theme and adding Italian translation.",
+  "",
+  [
+    "https://i.imgur.com/brPMJox.png",
+    "https://camo.githubusercontent.com/18d9b27c0974e99f1f7dc45fb8a658eed589a8e6a220482feb06335e2b089685/68747470733a2f2f692e706f7374696d672e63632f4d36563863425a632f53637265656e73686f742d66726f6d2d323032342d31302d31302d32302d31382d33362e706e67",
+    "https://camo.githubusercontent.com/2cd0ce45cdaf04dbbbaae7bd610221bd5d7106e5d7943095390e19b0410aeef3/68747470733a2f2f692e6962622e636f2f663436774b77572f4d6174657269616c2d596f752d4e65772d5461622d77696e646f77732d6368726f6d652e706e67",
+    "https://camo.githubusercontent.com/fd5dac61a87b0bdea9abf7433db96de7e21fe97c88e373365330a5a6efb3f9db/68747470733a2f2f692e706f7374696d672e63632f5058304a5a3832392f6d6174657269616c2d796f752d6e65777461622e77656270",
+  ],
+  "https://github.com/XengShi/materialYouNewTab",
+)
+
 export const Magium = new WorkData(
   20240830,
   false,
@@ -528,6 +555,7 @@ export const HangmanGame = new WorkData(
 
 
 export const AllWorks = [
+  MaterialYouNewTab,
   Magium,
   SudokuSolver,
   // InfoWebApp,
