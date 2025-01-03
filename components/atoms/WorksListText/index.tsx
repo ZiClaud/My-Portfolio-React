@@ -8,7 +8,7 @@ const WorksListText: FC<WorksListTextProps> = ({ workData }) => {
   return <>
     <div className="hidden tablet:flex flex-col justify-center w-[40vw]" id="Tablet-Laptop-View">
       <Typography variant="h5" color="neutral-1" bold={true}>{workData.title}</Typography>
-      <LongDescription variant="h3" desc1={workData.description} desc1bold={workData.descriptionBold} />
+      <LongDescription variant="h3" descriptions={[workData.description, workData.descriptionBold]} />
       <Typography variant="body1" color="neutral-1" bold={false}>{workData.category}</Typography>
       <ViewWorkButton workData={workData} />
     </div>

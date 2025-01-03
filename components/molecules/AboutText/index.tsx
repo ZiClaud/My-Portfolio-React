@@ -13,10 +13,13 @@ const AboutText: FC<AboutTextProps> = ({}) => {
       <div>
         <LongDescription
           variant="h3"
-          desc1="As a software developer, I am driven to create digital experiences that are both "
-          desc1bold="visually striking and intuitive to navigate. "
-          desc2="Besides programming, I am also deeply interested in "
-          desc2bold="writing, music and chess."
+          descriptions={[
+            "I’m a software developer passionate about creating ",
+            "visually elegant, intuitive digital experiences. ",
+            "Beyond coding, I enjoy ",
+            "music, writing, board games, photography, and psychology ",
+            "to design user-friendly applications.",
+          ]}
         />
       </div>
     </div>

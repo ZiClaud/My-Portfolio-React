@@ -58,8 +58,7 @@ const WorkPage: FC<WorkPageProps> = ({}) => {    // Scroll to top when the page 
           <WorksCarousel images={workData.urlAllImages} />
           <CardList textList={workData.skills} />
         </div>
-        <LongDescription variant="h3" desc1={workData.descriptionLong1} desc1bold={workData.descriptionLongBold1}
-                         desc2={workData.descriptionLong2} desc2bold={workData.descriptionLongBold2} />
+        <LongDescription variant="h3" descriptions={[workData.descriptionLong1, workData.descriptionLongBold1, workData.descriptionLong2, workData.descriptionLongBold2]} />
         <ClickLinkButton workData={workData} />
         <div className="flex justify-end">
           <Typography variant="body1" color="neutral-2" bold={true}>{getDateFromID(workData.id)}</Typography>
