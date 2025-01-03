@@ -22,7 +22,7 @@ const AboutImages: FC<AboutImagesProps> = ({}) => {
 
       <div className="absolute pt-[600px]">
         <Image
-          src="https://i.imgur.com/Rvk1U73.jpg"
+          src="https://i.imgur.com/30Vnhka.jpeg"
           alt="404" width={282} height={374} className="rounded-3xl" object-fit="cover"
         />
       </div>
