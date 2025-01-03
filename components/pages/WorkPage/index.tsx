@@ -30,6 +30,11 @@ const WorkPage: FC<WorkPageProps> = ({}) => {    // Scroll to top when the page 
     }
   }, [linkName, pathname])
 
+  /**
+   * We assume the ID is in the format YYYYMMDD.
+   *
+   * It'll return DD/MM/YYYY
+   */
   function getDateFromID(id: number): string {
     if (id < 19000000 || id > 30000000) {
       return ""
