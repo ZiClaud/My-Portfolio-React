@@ -17,7 +17,7 @@ const AboutText: FC<AboutTextProps> = ({}) => {
             "I’m a software developer passionate about creating ",
             "visually elegant, intuitive digital experiences. ",
             "Beyond coding, I enjoy ",
-            "music, writing, board games, photography, and psychology ",
+            "music, writing, drawing, board games, photography, and psychology ",
             "to design user-friendly applications.",
           ]}
         />
