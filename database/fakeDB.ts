@@ -21,6 +21,27 @@ export const WorkNotFound = new WorkData(
   undefined,
 )
 
+export const LupusAmongUs = new WorkData(
+  20250311,
+  false,
+  false,
+  "Lupus Among Us",
+  "lupus-among-us",
+  "...",
+  "...",
+  "Web Game",
+  "",
+  [
+    "Godot",
+  ],
+  "My first 3D multiplayer game, can be played on the web. ",
+  "It is inspired by the card game Werewolf. ",
+  "The game is made with Godot, a game engine that I love using. ",
+  "Play now, by clicking the link below!",
+  [],
+  undefined,
+)
+
 export const MaterialYouNewTab = new WorkData(
   20241014,
   false,
@@ -157,7 +178,7 @@ export const CosmicGateway = new WorkData(
   "...",
   "...",
   "Desktop & Web Game",
-  "https://i.imgur.com/zGXQlHz.png",
+  "https://i.imgur.com/1uT08B1.png",
   [
     "Godot",
   ],
@@ -166,7 +187,8 @@ export const CosmicGateway = new WorkData(
   "The game is made with Godot, a game engine that I love using. ",
   "Play now, by clicking the link below!",
   [
-    "https://i.imgur.com/mYA6hnz.gif",
+    // "https://i.imgur.com/mYA6hnz.gif",
+    "https://i.imgur.com/1uT08B1.png",
     "https://i.imgur.com/5gGsr4Q.png",
     "https://i.imgur.com/zGXQlHz.png",
   ],
@@ -555,6 +577,7 @@ export const HangmanGame = new WorkData(
 
 
 export const AllWorks = [
+  // LupusAmongUs,
   MaterialYouNewTab,
   Magium,
   SudokuSolver,
