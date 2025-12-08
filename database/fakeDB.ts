@@ -21,6 +21,32 @@ export const WorkNotFound = new WorkData(
   undefined,
 )
 
+export const DrivaliaWebsite = new WorkData(
+  20250415,
+  false,
+  false,
+  "Drivalia Website",
+  "drivalia-website",
+  "...",
+  "...",
+  "Website Maintainement",
+  "https://i.imgur.com/MQNd9kn.png",
+  [
+    "React",
+    "Java",
+    "AWS",
+  ],
+  "A full-stack commercial website developed for Drivalia in collaboration with Deloitte. ",
+  "Built and maintained the Drivalia website, handling the frontend in React and contributing to backend features in Java. ",
+  "I implemented new features, fixed a high volume of bugs, and eventually became the sole frontend developer on the project. This work also involved my first experience ",
+  "deploying and maintaining infrastructure on AWS.",
+  [
+    "https://i.imgur.com/MQNd9kn.png",
+    "https://i.imgur.com/Z1liUpY.png",
+  ],
+  "https://www.drivalia.com/eng/corporate"
+)
+
 export const LupusAmongUs = new WorkData(
   20250311,
   false,
@@ -577,6 +603,7 @@ export const HangmanGame = new WorkData(
 
 
 export const AllWorks = [
+  DrivaliaWebsite,
   // LupusAmongUs,
   MaterialYouNewTab,
   Magium,
