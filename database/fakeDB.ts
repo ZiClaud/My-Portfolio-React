@@ -404,6 +404,8 @@ export const Portfolio = new WorkData(
   "leveraging its component-based architecture and vast ecosystem.",
   [
     "https://i.imgur.com/5yosKhp.png",
+    "https://i.imgur.com/HczcJux.png",
+    "https://i.imgur.com/K1Nq5G4.png",
   ],
   "https://claudiodimaioflutter.netlify.app/",
 )
