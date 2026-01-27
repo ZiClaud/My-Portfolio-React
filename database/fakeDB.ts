@@ -21,6 +21,31 @@ export const WorkNotFound = new WorkData(
   undefined,
 )
 
+export const WeeksOfMyYear = new WorkData( // TODO
+  20260127,
+  false,
+  false,
+  "Weeks of my Year",
+  "weeks-of-my-year",
+  "...",
+  "...",
+  "Mobile App Widgets",
+  "https://i.imgur.com/TODO.png",
+  [
+    "Flutter",
+    "Dart",
+    "Kotlin",
+  ],
+  "TODO. ",
+  "TODO. ",
+  "TODO ",
+  "TODO.",
+  [
+    "https://i.imgur.com/TODO.png",
+  ],
+  "https://github.com/ZiClaud/Weeks-of-my-Year"
+)
+
 export const DrivaliaWebsite = new WorkData(
   20250415,
   false,
@@ -235,7 +260,7 @@ export const Bookshelf = new WorkData( // TODO
     "Flutter",
     "Dart",
     "Firebase",
-    "API",
+    "Google API",
   ],
   "",
   "",
@@ -261,6 +286,7 @@ export const Iremi = new WorkData(
     "Flutter",
     "Dart",
     "Firebase",
+    "SQLite",
   ],
   "Iremi is a mobile app designed to help users ",
   "combat anxiety through guided breathing exercises. ",
@@ -605,6 +631,7 @@ export const HangmanGame = new WorkData(
 
 
 export const AllWorks = [
+  // WeeksOfMyYear,
   DrivaliaWebsite,
   // LupusAmongUs,
   MaterialYouNewTab,
