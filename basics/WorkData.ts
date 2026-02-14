@@ -15,41 +15,27 @@ export default class WorkData {
   descriptionLongBold2: string
   urlAllImages: string[]
   link: string
+  logo: string | undefined
 
   constructor(
     id: number,
-    visible: boolean,
+    visible: boolean = false,
     imageFirst: boolean,
     title: string,
     linkName: string,
-    description: string | undefined,
-    descriptionBold: string | undefined,
+    description: string | undefined = "",
+    descriptionBold: string | undefined = "",
     category: string,
     urlImage: string,
     skills: string[],
     descriptionLong1: string,
     descriptionLongBold1: string,
-    descriptionLong2: string | undefined,
-    descriptionLongBold2: string | undefined,
+    descriptionLong2: string | undefined = "",
+    descriptionLongBold2: string | undefined = "",
     urlAllImages: string[],
-    link: string | undefined,
+    link: string | undefined = "",
+    logo: string | undefined = undefined,
   ) {
-    if (!visible || description === undefined || descriptionBold === undefined) {
-      visible = false
-      description = ""
-      descriptionBold = ""
-      imageFirst = false
-    }
-    if (link === undefined) {
-      link = ""
-    }
-    if (descriptionLong2 === undefined) {
-      descriptionLong2 = ""
-    }
-    if (descriptionLongBold2 === undefined) {
-      descriptionLongBold2 = ""
-    }
-
     this.id = id
     this.visible = visible
     this.imageFirst = imageFirst
@@ -66,5 +52,6 @@ export default class WorkData {
     this.descriptionLongBold2 = descriptionLongBold2
     this.urlAllImages = urlAllImages
     this.link = link
+    this.logo = logo
   }
 }
