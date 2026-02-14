@@ -54,13 +54,14 @@ const WorkPage: FC<WorkPageProps> = ({}) => {    // Scroll to top when the page 
     <Layout>
       <div className="flex flex-col bg-black-background">
         <div className="flex flex-col justify-center items-center">
-          <div className="flex flex-row w-full h-full justify-between items-center pt-5">
+          <div className="hidden tablet:flex flex-row w-full h-full justify-between items-center pt-5">
             <div className="w-[48px] h-[48px]" />
             <Typography variant="h2" color="neutral-1" bold={true}>{workData.title}</Typography>
             <div className="w-[48px] h-[48px]">
               {workData.logo ? <Image src={workData.logo} alt="" width="48" height="48" className="rounded-2xl" /> : null}
             </div>
           </div>
+          <Typography variant="h2" color="neutral-1" bold={true} className="flex tablet:hidden pt-5">{workData.title}</Typography>
           <Typography variant="h4" color="neutral-2" className="pb-5">{workData.category}</Typography>
           <WorksCarousel images={workData.urlAllImages} />
           <CardList textList={workData.skills} />
