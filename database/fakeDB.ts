@@ -20,7 +20,7 @@ export const WorkNotFound = new WorkData(
   "",
   [],
   undefined,
-  undefined,
+  undefined
 )
 
 export const WeeksOfMyYear = new WorkData( // TODO
@@ -33,20 +33,14 @@ export const WeeksOfMyYear = new WorkData( // TODO
   "...",
   "Mobile App Widgets",
   "https://i.imgur.com/TODO.png",
-  [
-    "Flutter",
-    "Dart",
-    "Kotlin",
-  ],
+  ["Flutter", "Dart", "Kotlin"],
   "TODO. ",
   "TODO. ",
   "TODO ",
   "TODO.",
-  [
-    "https://i.imgur.com/TODO.png",
-  ],
+  ["https://i.imgur.com/TODO.png"],
   "https://github.com/ZiClaud/Weeks-of-my-Year",
-  "",
+  ""
 )
 
 export const DrivaliaWebsite = new WorkData(
@@ -59,21 +53,14 @@ export const DrivaliaWebsite = new WorkData(
   "...",
   "Website Maintainement",
   "https://i.imgur.com/MQNd9kn.png",
-  [
-    "React",
-    "Java",
-    "AWS",
-  ],
+  ["React", "Java", "AWS"],
   "A full-stack commercial website developed for Drivalia in collaboration with Deloitte. ",
   "Built and maintained the Drivalia website, handling the frontend in React and contributing to backend features in Java. ",
   "I implemented new features, fixed a high volume of bugs, and eventually became the sole frontend developer on the project. This work also involved my first experience ",
   "deploying and maintaining infrastructure on AWS.",
-  [
-    "https://i.imgur.com/MQNd9kn.png",
-    "https://i.imgur.com/Z1liUpY.png",
-  ],
+  ["https://i.imgur.com/MQNd9kn.png", "https://i.imgur.com/Z1liUpY.png"],
   "https://www.drivalia.com/eng/corporate",
-  "https://avatars.githubusercontent.com/u/167996808",
+  "https://avatars.githubusercontent.com/u/167996808"
 )
 
 export const LupusAmongUs = new WorkData( // TODO
@@ -86,15 +73,13 @@ export const LupusAmongUs = new WorkData( // TODO
   "...",
   "Web Game",
   "",
-  [
-    "Godot",
-  ],
+  ["Godot"],
   "My first 3D multiplayer game, can be played on the web. ",
   "It is inspired by the card game Werewolf. ",
   "The game is made with Godot, a game engine that I love using. ",
   "Play now, by clicking the link below!",
   [],
-  undefined,
+  undefined
 )
 
 export const MaterialYouNewTab = new WorkData(
@@ -107,10 +92,7 @@ export const MaterialYouNewTab = new WorkData(
   "...",
   "Open Source Contribution",
   "https://i.imgur.com/GL8jbRI.png",
-  [
-    "CSS",
-    "JavaScript",
-  ],
+  ["CSS", "JavaScript"],
   "Contributed to ",
   "MaterialYouNewTab",
   ", a Chrome, FireFox and Safari extension. By fixing the dark theme and adding Italian translation.",
@@ -121,7 +103,7 @@ export const MaterialYouNewTab = new WorkData(
     "https://i.imgur.com/Visy1Nw.png",
     "https://i.imgur.com/m6eOY0r.png",
   ],
-  "https://github.com/XengShi/materialYouNewTab",
+  "https://github.com/XengShi/materialYouNewTab"
 )
 
 export const Magium = new WorkData(
@@ -134,18 +116,14 @@ export const Magium = new WorkData(
   "...",
   "Open Source Contribution",
   "https://i.imgur.com/BApb3KZ.png",
-  [
-    "JavaScript",
-  ],
+  ["JavaScript"],
   "Contributed to ",
   "Magium",
   ", a fan-made recreation of Christian Mihailescu's text-based adventure. The project ",
   "preserves and expands the original story.",
-  [
-    "https://i.imgur.com/BApb3KZ.png",
-  ],
+  ["https://i.imgur.com/BApb3KZ.png"],
   "https://github.com/thuiop/magium-dev",
-  "https://raw.githubusercontent.com/thuiop/magium-dev/main/public/images/magium.ico",
+  "https://raw.githubusercontent.com/thuiop/magium-dev/main/public/images/magium.ico"
 )
 
 export const SudokuSolver = new WorkData(
@@ -158,11 +136,7 @@ export const SudokuSolver = new WorkData(
   "...",
   "Command Line Program",
   "https://i.imgur.com/vBfZFiH.gif",
-  [
-    "C",
-    "Python",
-    "Manim",
-  ],
+  ["C", "Python", "Manim"],
   "Wanted to challenge myself by programming a ",
   "sudoku solver in C",
   ", also created an animation in ",
@@ -172,7 +146,7 @@ export const SudokuSolver = new WorkData(
     "https://i.imgur.com/9wmrw5q.gif",
     "https://i.imgur.com/1GamJ02.png",
   ],
-  "https://github.com/ZiClaud/Sudoku-Solver",
+  "https://github.com/ZiClaud/Sudoku-Solver"
 )
 
 /**
@@ -188,19 +162,13 @@ export const InfoWebApp = new WorkData(
   "...",
   "Website",
   "",
-  [
-    "React",
-    "TailwindCSS",
-    "Vite",
-  ],
+  ["React", "TailwindCSS", "Vite"],
   "Website made with a group of ",
   "skilled ",
   "programmers.",
   "",
-  [
-    "",
-  ],
-  undefined,
+  [""],
+  undefined
 )
 
 /**
@@ -216,19 +184,13 @@ export const GTEConverter = new WorkData(
   "...",
   "Website",
   "",
-  [
-    "React",
-    "TailwindCSS",
-    "NodeJS",
-  ],
+  ["React", "TailwindCSS", "NodeJS"],
   "Website to convert ChessDotCom links to pgn files, using ",
   "ChessDotCom API",
   ".",
   "",
-  [
-    "",
-  ],
-  undefined,
+  [""],
+  undefined
 )
 
 export const CosmicGateway = new WorkData(
@@ -241,9 +203,7 @@ export const CosmicGateway = new WorkData(
   "...",
   "Desktop & Web Game",
   "https://i.imgur.com/1uT08B1.png",
-  [
-    "Godot",
-  ],
+  ["Godot"],
   "My first 'serious' game, can be played on both desktop and web. ",
   "It is a 2D space shooter, where you have to defeat the enemies and reach the end of the level. ",
   "The game is made with Godot, a game engine that I love using. ",
@@ -255,7 +215,7 @@ export const CosmicGateway = new WorkData(
     "https://i.imgur.com/zGXQlHz.png",
   ],
   "https://ziclaud.itch.io/cosmic-gateway",
-  "",
+  ""
 )
 
 export const Bookshelf = new WorkData( // TODO
@@ -268,21 +228,14 @@ export const Bookshelf = new WorkData( // TODO
   "...",
   "Mobile App",
   "",
-  [
-    "Flutter",
-    "Dart",
-    "Firebase",
-    "Google API",
-  ],
+  ["Flutter", "Dart", "Firebase", "Google API"],
   "",
   "",
   "",
   "",
-  [
-    "",
-  ],
+  [""],
   undefined,
-  undefined,
+  undefined
 )
 
 export const Iremi = new WorkData(
@@ -295,12 +248,7 @@ export const Iremi = new WorkData(
   "promote relaxation and mindfulness.",
   "Mobile App",
   "https://i.imgur.com/eoEx6Tt.png?1",
-  [
-    "Flutter",
-    "Dart",
-    "Firebase",
-    "SQLite",
-  ],
+  ["Flutter", "Dart", "Firebase", "SQLite"],
   "Iremi is a mobile app designed to help users ",
   "combat anxiety through guided breathing exercises. ",
   "Using Flutter and Dart, I have created a simple and intuitive app that offers a variety of breathing exercises tailored to he users' needs. \nThe app also includes a progress tracker that allows users to monitor their breathing habits and ",
@@ -312,7 +260,7 @@ export const Iremi = new WorkData(
     "https://i.imgur.com/34SF2m0.png",
   ],
   "https://github.com/ZiClaud/Iremi-Breathing-App",
-  "https://raw.githubusercontent.com/ZiClaud/Iremi-Breathing-App/refs/heads/master/assets/icon/icon.png",
+  "https://raw.githubusercontent.com/ZiClaud/Iremi-Breathing-App/refs/heads/master/assets/icon/icon.png"
 )
 
 export const JEIOM = new WorkData(
@@ -325,11 +273,7 @@ export const JEIOM = new WorkData(
   "organize their schedule for the event in a single, user-friendly interface.",
   "Website",
   "https://i.imgur.com/apa36gM.png",
-  [
-    "React",
-    "TailwindCSS",
-    "NodeJS",
-  ],
+  ["React", "TailwindCSS", "NodeJS"],
   "JEIOM23 is a dynamic website designed specifically for the JEIOM 2023 event. It provides users with convenient access to the ",
   "event's schedule, comprehensive information about the event itself, and recommendations on must-see attractions and experiences. \n",
   "Our dedicated team utilized a powerful tech stack comprising React, TailwindCSS, and NodeJS to develop this feature-rich website, ensuring a ",
@@ -343,7 +287,7 @@ export const JEIOM = new WorkData(
     "https://i.imgur.com/WQB2yzk.png",
   ],
   "https://github.com/ZiClaud/JEIOM23",
-  "https://raw.githubusercontent.com/ZiClaud/JEIOM23/main/public/logoJeiom.svg",
+  "https://raw.githubusercontent.com/ZiClaud/JEIOM23/main/public/logoJeiom.svg"
 )
 
 export const ReactTest2 = new WorkData(
@@ -356,12 +300,9 @@ export const ReactTest2 = new WorkData(
   "...",
   "Website",
   "https://i.imgur.com/TXE0NFx.png",
-  [
-    "React",
-    "TailwindCSS",
-  ],
+  ["React", "TailwindCSS"],
   "A remarkable solo endeavor that builds upon the foundation laid by my previous project, ",
-  "\"React1\". ",
+  '"React1". ',
   "As a passionate React developer, I took on the challenge of creating this project independently, delving deeper into the nuances of React and honing my skills further. ",
   "",
   [
@@ -370,7 +311,7 @@ export const ReactTest2 = new WorkData(
     "https://i.imgur.com/CGMWQYO.png",
     "https://i.imgur.com/Lmnqzw4.png",
   ],
-  undefined, //"https://github.com/ZiClaud/Nextjs-Tailwindcss-Template"
+  undefined //"https://github.com/ZiClaud/Nextjs-Tailwindcss-Template"
 )
 
 export const ReactTest1 = new WorkData(
@@ -383,19 +324,13 @@ export const ReactTest1 = new WorkData(
   "...",
   "Website",
   "https://i.imgur.com/8AXClU0.png",
-  [
-    "React",
-    "TailwindCSS",
-  ],
+  ["React", "TailwindCSS"],
   "An exciting and collaborative project that marked my debut into the world of React development. Crafted in ",
   "collaboration with a talented group of colleagues, ",
   "this project showcases our collective efforts in harnessing the power of React to build a ",
   "dynamic and interactive web application.",
-  [
-    "https://i.imgur.com/8AXClU0.png",
-    "https://i.imgur.com/wGPTSV3.png",
-  ],
-  undefined, //"https://github.com/EscanorTargaryen/dash2"
+  ["https://i.imgur.com/8AXClU0.png", "https://i.imgur.com/wGPTSV3.png"],
+  undefined //"https://github.com/EscanorTargaryen/dash2"
 )
 
 export const OpenSource1 = new WorkData(
@@ -408,19 +343,14 @@ export const OpenSource1 = new WorkData(
   "...",
   "Open Source Contribution",
   "https://i.imgur.com/MWBvBSE.png",
-  [
-    "Flutter",
-    "Dart",
-  ],
+  ["Flutter", "Dart"],
   "I entered the world of open source by contributing to the ",
-  "\"Easy and Fast internationalization for your Flutter Apps\" repository. ",
+  '"Easy and Fast internationalization for your Flutter Apps" repository. ',
   "This impactful endeavor showcases my commitment to improving user experiences and collaborating with the wider development community. ",
   "",
-  [
-    "https://i.imgur.com/MWBvBSE.png",
-  ],
+  ["https://i.imgur.com/MWBvBSE.png"],
   "https://github.com/aissat/easy_localization/pull/593",
-  undefined,
+  undefined
 )
 
 export const Portfolio = new WorkData(
@@ -433,13 +363,7 @@ export const Portfolio = new WorkData(
   "Flutter, then recreated in React.",
   "Website",
   "https://i.imgur.com/5yosKhp.png",
-  [
-    "React",
-    "TailwindCSS",
-    "NodeJS",
-    "Flutter",
-    "Dart",
-  ],
+  ["React", "TailwindCSS", "NodeJS", "Flutter", "Dart"],
   "A captivating project that serves as a reflection of my journey as a developer. Inspired by a design discovered online, I took on the challenge of creating my own portfolio, ",
   "first in Flutter and then recreated it in React. ",
   "In the initial phase, I utilized Flutter and its versatile widgets to craft a visually appealing and interactive portfolio. As I honed my skills and explored new technologies, I decided to reimagine the portfolio using React, ",
@@ -450,7 +374,7 @@ export const Portfolio = new WorkData(
     "https://i.imgur.com/K1Nq5G4.png",
   ],
   "https://claudiodimaioflutter.netlify.app/",
-  "https://raw.githubusercontent.com/ZiClaud/My-Portfolio-React/main/public/images/ZC_Logo.svg",
+  "https://raw.githubusercontent.com/ZiClaud/My-Portfolio-React/main/public/images/ZC_Logo.svg"
 )
 
 export const JEMOREApp = new WorkData(
@@ -463,21 +387,14 @@ export const JEMOREApp = new WorkData(
   "...",
   "Mobile App",
   "https://i.imgur.com/XATCJuR.png",
-  [
-    "Flutter",
-    "Dart",
-    "Parse",
-  ],
+  ["Flutter", "Dart", "Parse"],
   "An innovative and powerful mobile application ",
   "available on the Play Store. ",
-  "This cutting-edge app was designed to revolutionize meeting management and participation at JEMORE. With a focus on convenience and anonymity, the \"JEMORE App\" allows users to easily confirm their presence at meetings and cast anonymous votes on crucial matters. ",
+  'This cutting-edge app was designed to revolutionize meeting management and participation at JEMORE. With a focus on convenience and anonymity, the "JEMORE App" allows users to easily confirm their presence at meetings and cast anonymous votes on crucial matters. ',
   "",
-  [
-    "https://i.imgur.com/XATCJuR.png",
-    "https://i.imgur.com/PSJvptV.png",
-  ],
+  ["https://i.imgur.com/XATCJuR.png", "https://i.imgur.com/PSJvptV.png"],
   "https://play.google.com/store/apps/details?id=it.jemore.jemore_services",
-  "https://avatars.githubusercontent.com/u/102101278",
+  "https://avatars.githubusercontent.com/u/102101278"
 )
 
 export const JEMORETreasury = new WorkData(
@@ -490,10 +407,7 @@ export const JEMORETreasury = new WorkData(
   "...",
   "Website",
   "https://i.imgur.com/NpWRniN.png",
-  [
-    "Flutter",
-    "Dart",
-  ],
+  ["Flutter", "Dart"],
   "An internal project that reflects my valuable contributions during my time at JEMORE. This specialized project was ",
   "designed to streamline and enhance ",
   "the treasury management processes within the organization. ",
@@ -505,7 +419,7 @@ export const JEMORETreasury = new WorkData(
     "https://i.imgur.com/Ri4sx8S.png",
   ],
   undefined,
-  "https://avatars.githubusercontent.com/u/102101278",
+  "https://avatars.githubusercontent.com/u/102101278"
 )
 
 export const SQLServerDatabase = new WorkData(
@@ -523,11 +437,9 @@ export const SQLServerDatabase = new WorkData(
   "more efficient and robust SQL.",
   "",
   "",
-  [
-    "https://i.imgur.com/l9hWzLi.png",
-  ],
+  ["https://i.imgur.com/l9hWzLi.png"],
   undefined,
-  "https://avatars.githubusercontent.com/u/102101278",
+  "https://avatars.githubusercontent.com/u/102101278"
 )
 
 export const ChessSoftware = new WorkData(
@@ -545,11 +457,8 @@ export const ChessSoftware = new WorkData(
   "SOLID principles. With a passion for clean and maintainable code, I embarked on this project to ensure that each aspect of the game adheres to SOLID design principles. ",
   "",
   "",
-  [
-    "https://i.imgur.com/BfPrqrh.png",
-    "https://i.imgur.com/xzaisCW.png",
-  ],
-  "https://github.com/ZiClaud/Chess",
+  ["https://i.imgur.com/BfPrqrh.png", "https://i.imgur.com/xzaisCW.png"],
+  "https://github.com/ZiClaud/Chess"
 )
 
 export const FightingGame = new WorkData(
@@ -567,10 +476,8 @@ export const FightingGame = new WorkData(
   "computer-controlled opponents. ",
   "Armed with Java's power and flexibility, I crafted this game with passion and determination, learning valuable lessons in ",
   "game mechanics, graphics rendering, and user interaction.",
-  [
-    "https://i.imgur.com/3fQrf61.png",
-  ],
-  "https://github.com/ZiClaud/Fighting-Game",
+  ["https://i.imgur.com/3fQrf61.png"],
+  "https://github.com/ZiClaud/Fighting-Game"
 )
 
 export const PickyEater = new WorkData(
@@ -596,7 +503,7 @@ export const PickyEater = new WorkData(
     "https://i.imgur.com/dRxlxf2.png",
     "https://i.imgur.com/Ei186oz.png",
   ],
-  "https://github.com/ZiClaud/Picky-Eater",
+  "https://github.com/ZiClaud/Picky-Eater"
 )
 
 export const OldPortfolio = new WorkData(
@@ -609,11 +516,7 @@ export const OldPortfolio = new WorkData(
   "...",
   "Website",
   "https://i.imgur.com/dA288Wb.png",
-  [
-    "HTML",
-    "CSS",
-    "JavaScript",
-  ],
+  ["HTML", "CSS", "JavaScript"],
   "A significant milestone in my journey as a developer. It marks my first venture into the world of web development, ",
   "where I designed and crafted an online portfolio from scratch ",
   "using HTML, JavaScript, and CSS. Take a trip down memory lane and witness my initial steps in the dynamic world of web development with my old Portfolio. ",
@@ -624,7 +527,7 @@ export const OldPortfolio = new WorkData(
     "https://i.imgur.com/UEgeKfc.png",
     "https://i.imgur.com/3V2L6kf.png",
   ],
-  "https://claudiodimaioold.netlify.app/",
+  "https://claudiodimaioold.netlify.app/"
 )
 
 export const HangmanGame = new WorkData(
@@ -642,13 +545,9 @@ export const HangmanGame = new WorkData(
   "entirely in C. ",
   "It was made using the first programming language I learned. ",
   "",
-  [
-    "https://i.imgur.com/tdtrOVx.png",
-    "https://i.imgur.com/FU85cY5.png",
-  ],
-  "https://github.com/ZiClaud/Hangman-C",
+  ["https://i.imgur.com/tdtrOVx.png", "https://i.imgur.com/FU85cY5.png"],
+  "https://github.com/ZiClaud/Hangman-C"
 )
-
 
 export const AllWorks = [
   // WeeksOfMyYear,

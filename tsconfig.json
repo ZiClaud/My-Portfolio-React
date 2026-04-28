@@ -1,11 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -24,21 +20,11 @@
       }
     ],
     "paths": {
-      "@/*": [
-        "./*"
-      ],
-      "@atoms/*": [
-        "./components/atoms/*"
-      ],
-      "@molecules/*": [
-        "./components/molecules/*"
-      ],
-      "@organisms/*": [
-        "./components/organisms/*"
-      ],
-      "@images/*": [
-        "./public/images/*"
-      ]
+      "@/*": ["./*"],
+      "@atoms/*": ["./components/atoms/*"],
+      "@molecules/*": ["./components/molecules/*"],
+      "@organisms/*": ["./components/organisms/*"],
+      "@images/*": ["./public/images/*"]
     }
   },
   "include": [
@@ -48,7 +34,5 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts"
   ],
-  "exclude": [
-    "node_modules"
-  ]
+  "exclude": ["node_modules"]
 }

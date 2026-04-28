@@ -32,17 +32,30 @@ const AllWorksPage: FC<AllWorksPageProps> = ({}) => {
             <Typography variant="h1" color="neutral-1" bold={true}>
               All of my Works
             </Typography>
+            {/* TODO:
+            <Typography variant="h5" color="neutral-1" bold={true}>
+              {"All/Solo/Team/Contribuited"}
+            </Typography>
+            <Typography variant="h5" color="neutral-2" bold={true}>
+              {"It will change the text to: 'All of my Works'/'All of my Solo Projects'/'All of my Team Projects'/'All of my Contributions'"}
+            </Typography>
+            */}
             <Padding />
             {chunkWorks(AllWorks, 3).map((chunk, index) => (
-              <div key={index}
-                   className="flex flex-col tablet:flex-row tablet:space-x-10 justify-center items-center">
+              <div
+                key={index}
+                className="flex flex-col tablet:flex-row tablet:space-x-10 justify-center items-center"
+              >
                 {chunk.map((work) => (
                   <div key={work.title}>
                     <Typography variant="h4" color="neutral-1" bold={true}>
                       {work.title}
                     </Typography>
-                    <AllWorksImage urlImage={work.urlImage} text={work.category}
-                                   linkName={work.linkName} />
+                    <AllWorksImage
+                      urlImage={work.urlImage}
+                      text={work.category}
+                      linkName={work.linkName}
+                    />
                     <Padding />
                   </div>
                 ))}
@@ -53,7 +66,6 @@ const AllWorksPage: FC<AllWorksPageProps> = ({}) => {
       </Layout>
     </>
   )
-
 }
 
 export default AllWorksPage

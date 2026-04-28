@@ -1,5 +1,5 @@
 export default class WorkData {
-  id: number  // Year + Month + Day of start/end of work (20220101, 20230318, etc.)
+  id: number // Year + Month + Day of start/end of work (20220101, 20230318, etc.)
   visible: boolean
   imageFirst: boolean
   title: string
@@ -34,7 +34,7 @@ export default class WorkData {
     descriptionLongBold2: string | undefined = "",
     urlAllImages: string[],
     link: string | undefined = "",
-    logo: string | undefined = undefined,
+    logo: string | undefined = undefined
   ) {
     this.id = id
     this.visible = visible
