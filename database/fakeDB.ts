@@ -23,6 +23,31 @@ export const WorkNotFound = new WorkData(
   undefined,
 )
 
+export const MagiumJS2 = new WorkData( // TODO
+  20260430,
+  false,
+  false,
+  "MagiumJS 2",
+  "magiumjs-2",
+  "...",
+  "...",
+  "Open Source Contribution",
+  "https://i.imgur.com/BApb3KZ.png",
+  [
+    "JavaScript",
+    "Electron",
+  ],
+  "Added Catpuccin theme to ",
+  "Magium",
+  ".",
+  "",
+  [
+    "https://i.imgur.com/BApb3KZ.png",
+  ],
+  "https://github.com/thuiop/magium-dev",
+  "https://raw.githubusercontent.com/thuiop/magium-dev/main/public/images/magium.ico",
+)
+
 export const WeeksOfMyYear = new WorkData( // TODO
   20260127,
   false,
@@ -651,6 +676,7 @@ export const HangmanGame = new WorkData(
 
 
 export const AllWorks = [
+  // MagiumJS2,
   // WeeksOfMyYear,
   DrivaliaWebsite,
   // LupusAmongUs,
