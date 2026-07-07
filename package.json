@@ -8,7 +8,7 @@
     "build": "next build",
     "build:gh-pages": "DEPLOY_TARGET=gh-pages next build",
     "predeploy": "npm run build:gh-pages",
-    "deploy": "mkdir -p out-deploy/My-Portfolio-React && cp -r out/* out-deploy/My-Portfolio-React/ && gh-pages -d out-deploy",
+    "deploy": "gh-pages -d out",
     "start": "next start",
     "lint": "next lint",
     "plop": "plop"
