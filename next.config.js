@@ -1,7 +1,9 @@
 /** @type {import("next").NextConfig} */
+const isGhPages = process.env.DEPLOY_TARGET === 'gh-pages';
+
 const nextConfig = {
   output: 'export',
-  basePath: '/My-Portfolio-React',
+  basePath: isGhPages ? '/My-Portfolio-React' : '',
   images: {
     remotePatterns: [
       { protocol: 'https', hostname: 'i.imgur.com' },
@@ -11,5 +13,4 @@ const nextConfig = {
     ],
   },
 }
-
 module.exports = nextConfig
