@@ -5,6 +5,7 @@ const nextConfig = {
   output: 'export',
   basePath: isGhPages ? '/My-Portfolio-React' : '',
   images: {
+    unoptimized: true,
     remotePatterns: [
       { protocol: 'https', hostname: 'i.imgur.com' },
       { protocol: 'https', hostname: 'camo.githubusercontent.com' },

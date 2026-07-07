@@ -3,7 +3,7 @@ import ContactSocialsProps from "./index.types"
 import IconButton from "@atoms/IconButton"
 import GitHubLogo from "@images/github_img.svg"
 import MastodonLogo from "@images/mastodon_img.svg"
-import MailLogo from "@images/mail_img.svg"
+import BlueskyLogo from "@images/bluesky_img.svg"
 
 const ContactSocials: FC<ContactSocialsProps> = ({}) => {
   return <>
@@ -16,7 +16,7 @@ const ContactSocials: FC<ContactSocialsProps> = ({}) => {
           <IconButton src={MastodonLogo} alt="Mastodon" rel="me" href="https://toot.community/@ZiClaud" />
         </div>
         <div className="absolute left-[55px] top-[180px]">
-          <IconButton src={MailLogo} alt="Mail" href="mailto:claudiodimaiozc@gmail.com" />
+          <IconButton src={BlueskyLogo} alt="Bluesky" href="https://bsky.app/profile/ziclaud.eurosky.social" />
         </div>
       </div>
     </div>
