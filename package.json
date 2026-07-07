@@ -1,9 +1,12 @@
 {
+  "homepage": "https://ZiClaud.github.io/My-Portfolio-React",
   "name": "my-portfolio-react",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d out",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -29,6 +32,7 @@
     "@types/node": "20.8.10",
     "@types/react": "18.2.33",
     "@types/react-image-gallery": "^1.2.0",
+    "gh-pages": "^6.3.0",
     "plop": "^3.1.2",
     "typescript": "5.2.2"
   }
