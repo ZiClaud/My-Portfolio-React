@@ -158,3 +158,4 @@ next-env.d.ts
 #idea
 */.idea/*
 /.idea/*
+out-deploy/*

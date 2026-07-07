@@ -44,6 +44,12 @@ To build:
 npm run build
 ```
 
+To deploy:
+
+```bash
+npm run deploy
+```
+
 To create a component (Atom, Molecule, Organism):
 
 ```bash

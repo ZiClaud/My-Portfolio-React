@@ -1,12 +1,13 @@
 /** @type {import("next").NextConfig} */
 const nextConfig = {
   output: 'export',
+  basePath: '/My-Portfolio-React',
   images: {
-    domains: [
-      "i.imgur.com",
-      "camo.githubusercontent.com",
-      "raw.githubusercontent.com",
-      "avatars.githubusercontent.com",
+    remotePatterns: [
+      { protocol: 'https', hostname: 'i.imgur.com' },
+      { protocol: 'https', hostname: 'camo.githubusercontent.com' },
+      { protocol: 'https', hostname: 'raw.githubusercontent.com' },
+      { protocol: 'https', hostname: 'avatars.githubusercontent.com' },
     ],
   },
 }

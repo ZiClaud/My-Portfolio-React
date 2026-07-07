@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d out",
+    "deploy": "mkdir -p out-deploy/My-Portfolio-React && cp -r out/* out-deploy/My-Portfolio-React/ && gh-pages -d out-deploy",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
