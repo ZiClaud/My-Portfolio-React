@@ -5,7 +5,7 @@
 <h1>
   Personal Portfolio
   <br/>
-  <a href="https://claudiodimaio.netlify.app/" target="_blank">claudiodimaio.netlify.app</a>
+  <a href="https://claudiodimaio.eu/" target="_blank">claudiodimaio.eu</a>
 </h1>
 
 #### Used to showcase my projects and technical skills
