@@ -3,7 +3,6 @@ const isGhPages = process.env.DEPLOY_TARGET === 'gh-pages';
 
 const nextConfig = {
   output: 'export',
-  basePath: isGhPages ? '/My-Portfolio-React' : '',
   images: {
     unoptimized: true,
     remotePatterns: [
