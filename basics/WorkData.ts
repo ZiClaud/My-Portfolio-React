@@ -15,7 +15,6 @@ export default class WorkData {
   descriptionLongBold2: string
   urlAllImages: string[]
   link: string
-  logo: string | undefined
 
   constructor(
     id: number,
@@ -34,7 +33,6 @@ export default class WorkData {
     descriptionLongBold2: string | undefined = "",
     urlAllImages: string[],
     link: string | undefined = "",
-    logo: string | undefined = undefined
   ) {
     this.id = id
     this.visible = visible
@@ -52,6 +50,5 @@ export default class WorkData {
     this.descriptionLongBold2 = descriptionLongBold2
     this.urlAllImages = urlAllImages
     this.link = link
-    this.logo = logo
   }
 }

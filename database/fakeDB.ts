@@ -20,7 +20,29 @@ export const WorkNotFound = new WorkData(
   "",
   [],
   undefined,
-  undefined
+)
+
+export const PCGGodotTemplate = new WorkData(
+  20260429,
+  false,
+  false,
+  "PCG Hex Template",
+  "pcg-hex-godot-template",
+  "...",
+  "...",
+  "Godot Template",
+  "https://i.imgur.com/BVKoLgH.png",
+  [
+    "Godot",
+  ],
+  "",
+  "Procedural Generation Hexagonal Template ",
+  "developed as my Bachelor's Thesis. In which I improved its generation performace by ",
+  "x80.",
+  [
+    "https://i.imgur.com/BVKoLgH.png",
+  ],
+  "https://ziclaud.itch.io/procedural-generation-project",
 )
 
 export const MagiumJS2 = new WorkData( // TODO
@@ -45,7 +67,6 @@ export const MagiumJS2 = new WorkData( // TODO
     "https://i.imgur.com/BApb3KZ.png",
   ],
   "https://github.com/thuiop/magium-dev",
-  "https://raw.githubusercontent.com/thuiop/magium-dev/main/public/images/magium.ico",
 )
 
 export const WeeksOfMyYear = new WorkData( // TODO
@@ -65,7 +86,6 @@ export const WeeksOfMyYear = new WorkData( // TODO
   "TODO.",
   ["https://i.imgur.com/TODO.png"],
   "https://github.com/ZiClaud/Weeks-of-my-Year",
-  ""
 )
 
 export const DrivaliaWebsite = new WorkData(
@@ -85,7 +105,6 @@ export const DrivaliaWebsite = new WorkData(
   "deploying and maintaining infrastructure on AWS.",
   ["https://i.imgur.com/MQNd9kn.png", "https://i.imgur.com/Z1liUpY.png"],
   "https://www.drivalia.com/eng/corporate",
-  "https://avatars.githubusercontent.com/u/167996808"
 )
 
 export const LupusAmongUs = new WorkData( // TODO
@@ -148,7 +167,6 @@ export const Magium = new WorkData(
   "preserves and expands the original story.",
   ["https://i.imgur.com/BApb3KZ.png"],
   "https://github.com/thuiop/magium-dev",
-  "https://raw.githubusercontent.com/thuiop/magium-dev/main/public/images/magium.ico"
 )
 
 export const SudokuSolver = new WorkData(
@@ -240,7 +258,6 @@ export const CosmicGateway = new WorkData(
     "https://i.imgur.com/zGXQlHz.png",
   ],
   "https://ziclaud.itch.io/cosmic-gateway",
-  ""
 )
 
 export const Bookshelf = new WorkData( // TODO
@@ -260,7 +277,6 @@ export const Bookshelf = new WorkData( // TODO
   "",
   [""],
   undefined,
-  undefined
 )
 
 export const Iremi = new WorkData(
@@ -285,7 +301,6 @@ export const Iremi = new WorkData(
     "https://i.imgur.com/34SF2m0.png",
   ],
   "https://github.com/ZiClaud/Iremi-Breathing-App",
-  "https://raw.githubusercontent.com/ZiClaud/Iremi-Breathing-App/refs/heads/master/assets/icon/icon.png"
 )
 
 export const JEIOM = new WorkData(
@@ -312,7 +327,6 @@ export const JEIOM = new WorkData(
     "https://i.imgur.com/WQB2yzk.png",
   ],
   "https://github.com/ZiClaud/JEIOM23",
-  "https://raw.githubusercontent.com/ZiClaud/JEIOM23/main/public/logoJeiom.svg"
 )
 
 export const ReactTest2 = new WorkData(
@@ -375,7 +389,6 @@ export const OpenSource1 = new WorkData(
   "",
   ["https://i.imgur.com/MWBvBSE.png"],
   "https://github.com/aissat/easy_localization/pull/593",
-  undefined
 )
 
 export const Portfolio = new WorkData(
@@ -399,7 +412,6 @@ export const Portfolio = new WorkData(
     "https://i.imgur.com/K1Nq5G4.png",
   ],
   "https://claudiodimaioflutter.netlify.app/",
-  "https://raw.githubusercontent.com/ZiClaud/My-Portfolio-React/main/public/images/ZC_Logo.svg"
 )
 
 export const JEMOREApp = new WorkData(
@@ -419,7 +431,6 @@ export const JEMOREApp = new WorkData(
   "",
   ["https://i.imgur.com/XATCJuR.png", "https://i.imgur.com/PSJvptV.png"],
   "https://play.google.com/store/apps/details?id=it.jemore.jemore_services",
-  "https://avatars.githubusercontent.com/u/102101278"
 )
 
 export const JEMORETreasury = new WorkData(
@@ -444,7 +455,6 @@ export const JEMORETreasury = new WorkData(
     "https://i.imgur.com/Ri4sx8S.png",
   ],
   undefined,
-  "https://avatars.githubusercontent.com/u/102101278"
 )
 
 export const SQLServerDatabase = new WorkData(
@@ -464,7 +474,6 @@ export const SQLServerDatabase = new WorkData(
   "",
   ["https://i.imgur.com/l9hWzLi.png"],
   undefined,
-  "https://avatars.githubusercontent.com/u/102101278"
 )
 
 export const ChessSoftware = new WorkData(
@@ -575,6 +584,7 @@ export const HangmanGame = new WorkData(
 )
 
 export const AllWorks = [
+  PCGGodotTemplate,
   // MagiumJS2,
   // WeeksOfMyYear,
   DrivaliaWebsite,
