@@ -38,7 +38,7 @@ export const PCGGodotTemplate = new WorkData(
   "",
   "Procedural Generation Hexagonal Template ",
   "developed as my Bachelor's Thesis. In which I improved its generation performace by ",
-  "x80.",
+  "80x.",
   [
     "https://i.imgur.com/BVKoLgH.png",
   ],
@@ -326,7 +326,7 @@ export const JEIOM = new WorkData(
     "https://i.imgur.com/CDk9U5P.png",
     "https://i.imgur.com/WQB2yzk.png",
   ],
-  "https://github.com/ZiClaud/JEIOM23",
+  "https://jeiom23.escanortargaryen.dev/",
 )
 
 export const ReactTest2 = new WorkData(

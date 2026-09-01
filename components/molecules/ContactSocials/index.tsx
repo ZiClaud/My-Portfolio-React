@@ -13,7 +13,7 @@ const ContactSocials: FC<ContactSocialsProps> = ({}) => {
           <IconButton src={GitHubLogo} alt="Github" href="https://github.com/ZiClaud" />
         </div>
         <div className="absolute left-[145px] top-[80px]">
-          <IconButton src={MastodonLogo} alt="Mastodon" rel="me" href="https://toot.community/@ZiClaud" />
+          <IconButton src={MastodonLogo} alt="Mastodon" rel="me" href="https://mastodon.uno/@ziclaud" />
         </div>
         <div className="absolute left-[55px] top-[180px]">
           <IconButton src={BlueskyLogo} alt="Bluesky" href="https://bsky.app/profile/ziclaud.eurosky.social" />
