@@ -22,6 +22,29 @@ export const WorkNotFound = new WorkData(
   undefined,
 )
 
+export const Gittyup = new WorkData( // TODO
+  20260902,
+  false,
+  false,
+  "Gittyup",
+  "gittyup",
+  "...",
+  "...",
+  "Open Source Contribution",
+  "",
+  [
+    "CSS",
+  ],
+  "",
+  "Improved UI implementing the ",
+  "Catppuccin Palette",
+  ".",
+  [
+    "",
+  ],
+  "",
+)
+
 export const PCGGodotTemplate = new WorkData(
   20260429,
   false,
