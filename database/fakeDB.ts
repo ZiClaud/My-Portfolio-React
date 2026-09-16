@@ -22,7 +22,7 @@ export const WorkNotFound = new WorkData(
   undefined,
 )
 
-export const Gittyup = new WorkData( // TODO
+export const Gittyup = new WorkData(
   20260902,
   false,
   false,
@@ -31,18 +31,20 @@ export const Gittyup = new WorkData( // TODO
   "...",
   "...",
   "Open Source Contribution",
-  "",
+  "https://i.imgur.com/SfncBEN.png",
   [
-    "CSS",
+    "Lua", "C",
   ],
-  "",
   "Improved UI implementing the ",
   "Catppuccin Palette",
   ".",
-  [
-    "",
-  ],
   "",
+  [
+    "https://i.imgur.com/SfncBEN.png",
+    "https://i.imgur.com/qtBLW76.png",
+    "https://i.imgur.com/r70ztMF.png",
+  ],
+  "https://github.com/Murmele/Gittyup/pull/1001",
 )
 
 export const PCGGodotTemplate = new WorkData(
@@ -54,7 +56,7 @@ export const PCGGodotTemplate = new WorkData(
   "...",
   "...",
   "Godot Template",
-  "https://i.imgur.com/BVKoLgH.png",
+  "https://i.imgur.com/KmWXmwY.png",
   [
     "Godot",
   ],
@@ -63,7 +65,7 @@ export const PCGGodotTemplate = new WorkData(
   "developed as my Bachelor's Thesis. In which I improved its generation performace by ",
   "80x.",
   [
-    "https://i.imgur.com/BVKoLgH.png",
+    "https://i.imgur.com/KmWXmwY.png",
   ],
   "https://ziclaud.itch.io/procedural-generation-project",
 )
@@ -607,6 +609,7 @@ export const HangmanGame = new WorkData(
 )
 
 export const AllWorks = [
+  Gittyup,
   PCGGodotTemplate,
   // MagiumJS2,
   // WeeksOfMyYear,
