@@ -31,7 +31,7 @@ export const Gittyup = new WorkData(
   "...",
   "...",
   "Open Source Contribution",
-  "https://i.imgur.com/SfncBEN.png",
+  "https://i.imgur.com/89Jur9Q.png",
   [
     "Lua", "C",
   ],
@@ -40,9 +40,9 @@ export const Gittyup = new WorkData(
   ".",
   "",
   [
-    "https://i.imgur.com/SfncBEN.png",
-    "https://i.imgur.com/qtBLW76.png",
-    "https://i.imgur.com/r70ztMF.png",
+    "https://i.imgur.com/89Jur9Q.png",
+    "https://i.imgur.com/HTrGNXB.png",
+    "https://i.imgur.com/eLTvoCg.png",
   ],
   "https://github.com/Murmele/Gittyup/pull/1001",
 )
