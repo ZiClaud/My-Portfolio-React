@@ -6,7 +6,6 @@ import { deprecate } from "util"
 export const WorkNotFound = new WorkData(
   404,
   false,
-  false,
   "Error 404",
   "404",
   "",
@@ -24,7 +23,6 @@ export const WorkNotFound = new WorkData(
 
 export const Gittyup = new WorkData(
   20260902,
-  false,
   false,
   "Gittyup",
   "gittyup",
@@ -50,7 +48,6 @@ export const Gittyup = new WorkData(
 export const PCGGodotTemplate = new WorkData(
   20260429,
   false,
-  false,
   "PCG Hex Template",
   "pcg-hex-godot-template",
   "...",
@@ -72,7 +69,6 @@ export const PCGGodotTemplate = new WorkData(
 
 export const MagiumJS2 = new WorkData( // TODO
   20260430,
-  false,
   false,
   "MagiumJS 2",
   "magiumjs-2",
@@ -97,7 +93,6 @@ export const MagiumJS2 = new WorkData( // TODO
 export const WeeksOfMyYear = new WorkData( // TODO
   20260127,
   false,
-  false,
   "Weeks of my Year",
   "weeks-of-my-year",
   "...",
@@ -115,7 +110,6 @@ export const WeeksOfMyYear = new WorkData( // TODO
 
 export const DrivaliaWebsite = new WorkData(
   20250415,
-  false,
   false,
   "Drivalia Website",
   "drivalia-website",
@@ -135,7 +129,6 @@ export const DrivaliaWebsite = new WorkData(
 export const LupusAmongUs = new WorkData( // TODO
   20250311,
   false,
-  false,
   "Lupus Among Us",
   "lupus-among-us",
   "...",
@@ -153,12 +146,11 @@ export const LupusAmongUs = new WorkData( // TODO
 
 export const MaterialYouNewTab = new WorkData(
   20241014,
-  false,
-  false,
+  true,
   "MaterialYouNewTab",
   "material-you-new-tab",
-  "...",
-  "...",
+  "Enhanced the theme design and added Italian localization for the ",
+  "MaterialYouNewTab Chrome, Firefox, and Safari Open-Source extension.",
   "Open Source Contribution",
   "https://i.imgur.com/GL8jbRI.png",
   ["CSS", "JavaScript"],
@@ -172,12 +164,11 @@ export const MaterialYouNewTab = new WorkData(
     "https://i.imgur.com/Visy1Nw.png",
     "https://i.imgur.com/m6eOY0r.png",
   ],
-  "https://github.com/XengShi/materialYouNewTab"
+  "https://github.com/prem-k-r/MaterialYouNewTab"
 )
 
 export const Magium = new WorkData(
   20240830,
-  false,
   false,
   "Magium",
   "magium",
@@ -196,7 +187,6 @@ export const Magium = new WorkData(
 
 export const SudokuSolver = new WorkData(
   20240807,
-  false,
   false,
   "Sudoku Solver",
   "sudoku-solver",
@@ -223,7 +213,6 @@ export const SudokuSolver = new WorkData(
 export const InfoWebApp = new WorkData(
   20240804,
   false,
-  false,
   "WebApp Community",
   "webapp-community",
   "...",
@@ -245,7 +234,6 @@ export const InfoWebApp = new WorkData(
 export const GTEConverter = new WorkData(
   20240628,
   false,
-  false,
   "GTE Converter",
   "gte-converter",
   "...",
@@ -263,7 +251,6 @@ export const GTEConverter = new WorkData(
 
 export const CosmicGateway = new WorkData(
   20240211,
-  false,
   false,
   "Cosmic Gateway",
   "cosmic-gateway",
@@ -288,7 +275,6 @@ export const CosmicGateway = new WorkData(
 export const Bookshelf = new WorkData( // TODO
   20230825,
   false,
-  false,
   "Bookshelf",
   "bookshelf",
   "...",
@@ -307,11 +293,10 @@ export const Bookshelf = new WorkData( // TODO
 export const Iremi = new WorkData(
   20230318,
   true,
-  true,
   "Iremi",
   "iremi",
   "I developed this app entirely on my own, and it offers users a range of breathing exercises that are specifically designed to ",
-  "promote relaxation and mindfulness.",
+  "promote relaxation and mindfulness, now available on F-Droid.",
   "Mobile App",
   "https://i.imgur.com/eoEx6Tt.png?1",
   ["Flutter", "Dart", "Firebase", "SQLite"],
@@ -330,7 +315,6 @@ export const Iremi = new WorkData(
 
 export const JEIOM = new WorkData(
   20220614,
-  true,
   false,
   "JEIOM23",
   "jeiom",
@@ -356,7 +340,6 @@ export const JEIOM = new WorkData(
 
 export const ReactTest2 = new WorkData(
   20230601,
-  true,
   false,
   "React 2",
   "react2",
@@ -380,7 +363,6 @@ export const ReactTest2 = new WorkData(
 
 export const ReactTest1 = new WorkData(
   20220528,
-  true,
   false,
   "React 1",
   "react1",
@@ -400,7 +382,6 @@ export const ReactTest1 = new WorkData(
 export const OpenSource1 = new WorkData(
   20230602,
   false,
-  false,
   "Easy Localization",
   "easy-localization",
   "...",
@@ -418,12 +399,11 @@ export const OpenSource1 = new WorkData(
 
 export const Portfolio = new WorkData(
   20230426,
-  true,
-  true,
+  false, // true,
   "This Portfolio",
   "portfolio",
-  "I developed this portfolio, taking inspiration from a design found online, created first in ",
-  "Flutter, then recreated in React.",
+  "", // "I developed this portfolio, taking inspiration from a design found online, created first in ",
+  "", // "Flutter, then recreated in React.",
   "Website",
   "https://i.imgur.com/5yosKhp.png",
   ["React", "TailwindCSS", "NodeJS", "Flutter", "Dart"],
@@ -442,7 +422,6 @@ export const Portfolio = new WorkData(
 export const JEMOREApp = new WorkData(
   20220727,
   false,
-  false,
   "JEMORE App",
   "jemore-app",
   "...",
@@ -460,7 +439,6 @@ export const JEMOREApp = new WorkData(
 
 export const JEMORETreasury = new WorkData(
   20220803,
-  false,
   false,
   "JEMORE Treasury",
   "jemore-treasury",
@@ -485,7 +463,6 @@ export const JEMORETreasury = new WorkData(
 export const SQLServerDatabase = new WorkData(
   20220000,
   false,
-  false,
   "SQL Server Database",
   "sql-database",
   "...",
@@ -503,7 +480,6 @@ export const SQLServerDatabase = new WorkData(
 
 export const ChessSoftware = new WorkData(
   20221211,
-  false,
   false,
   "Chess",
   "chess",
@@ -523,7 +499,6 @@ export const ChessSoftware = new WorkData(
 export const FightingGame = new WorkData(
   20221031,
   false,
-  false,
   "Fighting Game",
   "fighting-game",
   "...",
@@ -541,7 +516,6 @@ export const FightingGame = new WorkData(
 
 export const PickyEater = new WorkData(
   20220510,
-  false,
   false,
   "Picky Eater",
   "picky-eater",
@@ -568,7 +542,6 @@ export const PickyEater = new WorkData(
 export const OldPortfolio = new WorkData(
   20221016,
   false,
-  false,
   "Old Portfolio",
   "old-portfolio",
   "...",
@@ -591,7 +564,6 @@ export const OldPortfolio = new WorkData(
 
 export const HangmanGame = new WorkData(
   20201204,
-  false,
   false,
   "Hangman Game",
   "hangman",

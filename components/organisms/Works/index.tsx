@@ -2,7 +2,7 @@ import React, { FC } from "react"
 import WorksProps from "./index.types"
 import SectionTitle from "@molecules/SectionTitle"
 import WorksList from "@molecules/WorksList"
-import { Iremi, JEIOM, Portfolio } from "@/database/fakeDB"
+import { Iremi, JEIOM, MaterialYouNewTab } from "@/database/fakeDB"
 import BigButton from "@atoms/BigButton"
 
 const Works: FC<WorksProps> = ({}) => {
@@ -11,7 +11,7 @@ const Works: FC<WorksProps> = ({}) => {
       <SectionTitle text1="My best" text2="Works" />
       <WorksList workData={Iremi} />
       <WorksList workData={JEIOM} />
-      <WorksList workData={Portfolio} />
+      <WorksList workData={MaterialYouNewTab} />
       <div className="flex flex-row justify-center items-center py-4">
         <BigButton text="VIEW ALL WORKS" link="/works" variant={"0"} />
       </div>

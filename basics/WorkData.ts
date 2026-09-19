@@ -1,6 +1,5 @@
 export default class WorkData {
   id: number // Year + Month + Day of start/end of work (20220101, 20230318, etc.)
-  visible: boolean
   imageFirst: boolean
   title: string
   linkName: string
@@ -18,7 +17,6 @@ export default class WorkData {
 
   constructor(
     id: number,
-    visible: boolean = false,
     imageFirst: boolean,
     title: string,
     linkName: string,
@@ -35,7 +33,6 @@ export default class WorkData {
     link: string | undefined = "",
   ) {
     this.id = id
-    this.visible = visible
     this.imageFirst = imageFirst
     this.title = title
     this.linkName = linkName
