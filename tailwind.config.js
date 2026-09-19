@@ -24,7 +24,7 @@ module.exports = {
         "primary-color": "#3688FF",
         "white-color": "#FFFFFF",
         "neutral-1-color": "#E3E4E6",
-        "neutral-2-color": "rgba(227,228,230,0.5)",
+        "neutral-2-color": "#727377",
       },
     },
     plugins: [],
