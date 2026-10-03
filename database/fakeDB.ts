@@ -21,6 +21,48 @@ export const WorkNotFound = new WorkData(
   undefined,
 )
 
+export const YearInDays = new WorkData( // TODO
+  20260930,
+  false,
+  "Year in Days",
+  "year-in-days",
+  "...",
+  "...",
+  "Mobile App Widgets",
+  "https://i.imgur.com/TODO.png",
+  ["Flutter", "Dart", "Kotlin"],
+  "TODO. ",
+  "TODO. ",
+  "TODO ",
+  "TODO.",
+  ["https://i.imgur.com/TODO.png"],
+  "https://github.com/ZiClaud/Year-in-Days",
+)
+
+export const PersonalServer = new WorkData(
+  20260917,
+  false,
+  "Personal Server",
+  "personal-server",
+  "...",
+  "...",
+  "Infrastructure",
+  "https://i.imgur.com/obiKi11.png",
+  [
+    "Linux", "Docker", "System Administration",
+  ],
+  "Repurposed an old laptop into a personal Linux server with ",
+  "SSH access and containerized deployments using CasaOS",
+  ". This deepened my understanding of ",
+  "system administration, networking, and infrastructure management.",
+  [
+    "https://i.imgur.com/obiKi11.png",
+    "https://i.imgur.com/vC7HLZG.png",
+    "https://i.imgur.com/gaxpkQz.png",
+  ],
+  undefined,
+)
+
 export const Gittyup = new WorkData(
   20260902,
   false,
@@ -52,7 +94,7 @@ export const PCGGodotTemplate = new WorkData(
   "pcg-hex-godot-template",
   "...",
   "...",
-  "Godot Template",
+  "Template",
   "https://i.imgur.com/KmWXmwY.png",
   [
     "Godot",
@@ -88,24 +130,6 @@ export const MagiumJS2 = new WorkData( // TODO
     "https://i.imgur.com/BApb3KZ.png",
   ],
   "https://github.com/thuiop/magium-dev",
-)
-
-export const WeeksOfMyYear = new WorkData( // TODO
-  20260127,
-  false,
-  "Weeks of my Year",
-  "weeks-of-my-year",
-  "...",
-  "...",
-  "Mobile App Widgets",
-  "https://i.imgur.com/TODO.png",
-  ["Flutter", "Dart", "Kotlin"],
-  "TODO. ",
-  "TODO. ",
-  "TODO ",
-  "TODO.",
-  ["https://i.imgur.com/TODO.png"],
-  "https://github.com/ZiClaud/Weeks-of-my-Year",
 )
 
 export const DrivaliaWebsite = new WorkData(
@@ -581,10 +605,11 @@ export const HangmanGame = new WorkData(
 )
 
 export const AllWorks = [
+  // YearInDays,
+  PersonalServer,
   Gittyup,
   PCGGodotTemplate,
   // MagiumJS2,
-  // WeeksOfMyYear,
   DrivaliaWebsite,
   // LupusAmongUs,
   MaterialYouNewTab,
