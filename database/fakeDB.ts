@@ -57,8 +57,9 @@ export const PersonalServer = new WorkData(
   "system administration, networking, and infrastructure management.",
   [
     "https://i.imgur.com/obiKi11.png",
-    "https://i.imgur.com/vC7HLZG.png",
     "https://i.imgur.com/gaxpkQz.png",
+    "https://i.imgur.com/fSkfaqg.gif",
+    "https://i.imgur.com/vC7HLZG.png",
   ],
   undefined,
 )

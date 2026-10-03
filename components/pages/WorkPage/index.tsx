@@ -54,8 +54,7 @@ const WorkPage: FC<WorkPageProps> = ({}) => {    // Scroll to top when the page 
     <Layout>
       <div className="flex flex-col bg-black-background">
         <div className="flex flex-col justify-center items-center">
-          <Typography variant="h2" color="neutral-1" bold={true}>{workData.title}</Typography>
-          <Typography variant="h2" color="neutral-1" bold={true} className="flex tablet:hidden pt-5">{workData.title}</Typography>
+          <Typography variant="h2" color="neutral-1" bold={true} className="pt-5">{workData.title}</Typography>
           <Typography variant="h4" color="neutral-2" className="pb-5">{workData.category}</Typography>
           <WorksCarousel images={workData.urlAllImages} />
           <CardList textList={workData.skills} />
