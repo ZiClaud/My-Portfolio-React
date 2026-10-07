@@ -59,7 +59,7 @@ export const PersonalServer = new WorkData(
     "https://i.imgur.com/obiKi11.png",
     "https://i.imgur.com/gaxpkQz.png",
     "https://i.imgur.com/fSkfaqg.gif",
-    "https://i.imgur.com/vC7HLZG.png",
+    "https://i.imgur.com/krYaTp9.png",
   ],
   undefined,
 )
