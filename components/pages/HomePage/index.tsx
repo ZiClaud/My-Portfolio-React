@@ -5,11 +5,13 @@ import HomePageProps from "./index.types"
 import Hero from "@organisms/Hero"
 import Padding from "@atoms/Padding"
 import Skills from "@organisms/Skills"
-import Works from "@organisms/Works"
+import Work from "@/components/organisms/Work"
+import Works from "@/components/organisms/Works"
 import About from "@organisms/About"
 import Contact from "@organisms/Contact"
 import Footer from "@organisms/Footer"
 import Layout from "@/components/atoms/Layout"
+import { JEIOM } from "@/database/fakeDB"
 
 const HomePage: FC<HomePageProps> = ({}) => {
   return <>
@@ -18,6 +20,8 @@ const HomePage: FC<HomePageProps> = ({}) => {
         <Hero />
         <Padding />
         <Skills />
+        <Padding />
+        <Work />
         <Padding />
         <Works />
         <Padding />

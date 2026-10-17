@@ -30,14 +30,14 @@ const AllWorksPage: FC<AllWorksPageProps> = ({}) => {
           <div className="flex flex-col justify-between items-center">
             <Padding />
             <Typography variant="h1" color="neutral-1" bold={true}>
-              All of my Works
+              All of my Work
             </Typography>
             {/* TODO:
             <Typography variant="h5" color="neutral-1" bold={true}>
               {"All/Solo/Team/Contribuited"}
             </Typography>
             <Typography variant="h5" color="neutral-2" bold={true}>
-              {"It will change the text to: 'All of my Works'/'All of my Solo Projects'/'All of my Team Projects'/'All of my Contributions'"}
+              {"It will change the text to: 'All of my Work'/'All of my Solo Projects'/'All of my Team Projects'/'All of my Contributions'"}
             </Typography>
             */}
             <Padding />

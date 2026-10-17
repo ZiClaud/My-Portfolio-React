@@ -41,11 +41,11 @@ export const YearInDays = new WorkData( // TODO
 
 export const PersonalServer = new WorkData(
   20260917,
-  false,
+  true,
   "Personal Server",
   "personal-server",
-  "...",
-  "...",
+  "Repurposed an old laptop into a personal Linux server, improving my knowledge of ",
+  "system administration, networking, and infrastructure management.",
   "Infrastructure",
   "https://i.imgur.com/obiKi11.png",
   [
@@ -171,7 +171,7 @@ export const LupusAmongUs = new WorkData( // TODO
 
 export const MaterialYouNewTab = new WorkData(
   20241014,
-  true,
+  false,
   "MaterialYouNewTab",
   "material-you-new-tab",
   "Enhanced the theme design and added Italian localization for the ",
@@ -317,7 +317,7 @@ export const Bookshelf = new WorkData( // TODO
 
 export const Iremi = new WorkData(
   20230318,
-  true,
+  false,
   "Iremi",
   "iremi",
   "I developed this app entirely on my own, and it offers users a range of breathing exercises that are specifically designed to ",
@@ -340,10 +340,10 @@ export const Iremi = new WorkData(
 
 export const JEIOM = new WorkData(
   20220614,
-  false,
+  true,
   "JEIOM23",
   "jeiom",
-  "I was part of a team that developed this website for the JEIOM 2023 event. Our goal was to create a platform that would enable users to ",
+  "I was part of a team that developed this website for the JEIOM event. Our goal was to create a platform that would enable users to ",
   "organize their schedule for the event in a single, user-friendly interface.",
   "Website",
   "https://i.imgur.com/apa36gM.png",
